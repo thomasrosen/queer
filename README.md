@@ -17,5 +17,5 @@ https://nonbinarytransgermany.tumblr.com/language
 # Networks
 
 DBNA — Du bist nicht allein!<br>
-Deutschsprachiges Netzwerk für queere Jungs von 14 bis 29 Jahre.
+Deutschsprachiges Netzwerk für queere Jungs von 14 bis 29 Jahre.<br>
 https://www.dbna.com/
