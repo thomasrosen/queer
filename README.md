@@ -19,3 +19,9 @@ https://nonbinarytransgermany.tumblr.com/language
 DBNA — Du bist nicht allein!<br>
 Deutschsprachiges Netzwerk für queere Jungs von 14 bis 29 Jahre.<br>
 https://www.dbna.com/
+
+# News Websites / Magazines
+
+MANNSCHAFT MAGAZIN<br>
+"Das führende Lifestyle-Magazin der LGBTIQ-Community im gesamten deutschsprachigen Raum."<br>
+https://mannschaft.com/
