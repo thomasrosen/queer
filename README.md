@@ -1,5 +1,5 @@
 # Queer
-Resources for and about queer people 🏳️‍🌈
+Resources for queer people 🏳️‍🌈
 
 # Trans + Non-Binary
 
