@@ -22,6 +22,10 @@ https://www.dbna.com/
 
 # News Websites / Magazines
 
+Queer.de<br>
+Queeres Nachrichtenportal aus Köln.<br>
+https://www.queer.de/
+
 MANNSCHAFT MAGAZIN<br>
 "Das führende Lifestyle-Magazin der LGBTIQ-Community im gesamten deutschsprachigen Raum."<br>
 https://mannschaft.com/
