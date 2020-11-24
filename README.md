@@ -13,3 +13,9 @@ https://nonbinarytransgermany.tumblr.com/faq
 
 Geschlechtsneutrale Sprache | Gender-neutral language<br>
 https://nonbinarytransgermany.tumblr.com/language
+
+# Networks
+
+DBNA — Du bist nicht allein!<br>
+Deutschsprachiges Netzwerk für queere Jungs von 14 bis 29 Jahre.
+https://www.dbna.com/
