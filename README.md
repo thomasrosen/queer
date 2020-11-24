@@ -14,6 +14,10 @@ https://nonbinarytransgermany.tumblr.com/faq
 Geschlechtsneutrale Sprache | Gender-neutral language<br>
 https://nonbinarytransgermany.tumblr.com/language
 
+Das Genderwörterbuch<br>
+Nachschlagewerk zum Gendern.<br>
+https://geschicktgendern.de/
+
 # Networks
 
 DBNA — Du bist nicht allein!<br>
