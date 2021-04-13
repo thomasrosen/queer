@@ -1,6 +1,8 @@
 # Queer
 Resources for queer people 🏳️‍🌈
 
+I'm now collecting everything here: https://github.com/thomasrosen/LGBTQIA-Starterpack
+
 # Trans + Non-Binary
 
 **Das Nichtbinär-Wiki**<br>
