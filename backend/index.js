@@ -206,6 +206,6 @@ const port = 17215 // queer = 17 21 5 5 18
 const host = '0.0.0.0' // Uberspace wants 0.0.0.0
 app.listen(port, host, () => {
   const url = `http://${host}:${port}`
-  console.log(`Server listening at ${url}`)
+  console.info(`Server listening at ${url}`)
 })
 
