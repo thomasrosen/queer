@@ -151,30 +151,28 @@ export default function App() {
   return <div className="app_wrapper">
     <header>
       <h1>Queer Resources</h1>
+      <a href="https://github.com/thomasrosen/queer" target="_blank" rel="noreferrer">Sourcecode</a>
     </header>
     
     <main>
 
-      <a href="https://github.com/thomasrosen/queer" target="_blank" rel="noreferrer">Sourcecode</a>
-      <br />
-      <br />
+      <p>A collection of resources for queer people. You're of course also welcome to look through the information if you are an ally.</p>
+
+      <p>You can filter the links via your location and some tags.</p>
 
       {error && <p>Error: {error}</p>}
 
-      <button onClick={getLocation}>Filter for resources near you</button>
-      <button onClick={clearLocation}>Clear location filter</button>
+      <div className="tag_row">
+        <button onClick={getLocation}>Filter for resources near you</button>
+        <button onClick={clearLocation}>Clear location filter</button>
+      </div>
       {
         latitude && longitude
           ? <p>Location: {latitude} / {longitude}</p>
           : null
       }
 
-      <div style={{
-        display: 'flex',
-        flexWrap: 'wrap',
-        gap: '0.5rem',
-        margin: '1rem 0',
-      }} key={selectedTags}>
+      <div className="tag_row">
         { tags && tags.map(tag => {
           return <Tag
             key={tag}
@@ -189,24 +187,21 @@ export default function App() {
         resources &&
         resources.map(resource => {
           return <div key={JSON.stringify(resource)}>
-            <h2>{resource.title}</h2>
+            <br />
+            <h3>{resource.title}</h3>
             <p>{resource.description}</p>
             <a href={resource.link} target="_blank" rel="noreferrer">{resource.link}</a>
-            <div style={{
-              display: 'flex',
-              flexWrap: 'wrap',
-              gap: '0.5rem',
-              margin: '1rem 0',
-            }}>{
-              resource.tags.map(tag => {
-                return <Tag
-                  key={tag}
-                  tag={tag}
-                  data-selected={selectedTags.has(tag) ? 'true' : 'false'}
-                  onClick={() => toggleTag(tag)}
-                />
-              })
-            }
+            <div className="tag_row">
+              {
+                resource.tags.map(tag => {
+                  return <Tag
+                    key={tag}
+                    tag={tag}
+                    data-selected={selectedTags.has(tag) ? 'true' : 'false'}
+                    onClick={() => toggleTag(tag)}
+                  />
+                })
+              }
             </div>
           </div>
         })
