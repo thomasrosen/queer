@@ -123,7 +123,7 @@ resources:
     east: 1.75
 
 - title:
-    en: Data of historic gay-guides
+    en: Data of historic gay-guides in the US
   link: http://www.mappingthegayguides.org
   links:
     - [datasets, https://github.com/MappingtheGayGuides]
@@ -132,10 +132,10 @@ resources:
     - historical
     - gay
   bbox:
-    north: 90
-    west: -180
-    south: -90
-    east: 180
+    north: 49.5
+    west: -125
+    south: 24.5
+    east: -66.5
 
 - title:
     en: Queer places in St. Lois, USA
@@ -381,9 +381,12 @@ resources:
 
 - title:
     en: Queer Country Stories
-  link: https://instagram.com/countryqueers
+  description:
+    en: Country Queers is an ongoing multimedia oral history project documenting the diverse experiences of rural, small town, and country LGBTQIA2S+ folks – across intersecting layers of identity such as race, class, age, ability, gender identity, and religion.
+  link: https://www.countryqueers.com/
   tags:
     - queer
+    - historical
   bbox:
     north: 90
     west: -180
@@ -658,3 +661,27 @@ resources:
     - queer
     - places
     - events
+
+- title: travelgay
+  link: https://www.travelgay.com/
+  bbox:
+    north: 90
+    west: -180
+    south: -90
+    east: 180
+  tags:
+    - queer
+    - places
+    - events
+
+- title: Flokkr
+  link: https://flokkr.com/
+  bbox:
+    north: 90
+    west: -180
+    south: -90
+    east: 180
+  tags:
+    - queer
+    - network
+    - places
