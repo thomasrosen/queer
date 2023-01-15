@@ -188,16 +188,20 @@ export default function App() {
         resources.map(resource => {
           return <div key={JSON.stringify(resource)}>
             <br />
-            <h3>{resource.title}</h3>
+            <h3>
+              <a href={resource.link} target="_blank" rel="noreferrer">
+                {resource.title}
+              </a>
+            </h3>
             <p>{resource.description}</p>
-            <a href={resource.link} target="_blank" rel="noreferrer">{resource.link}</a>
-            <div className="tag_row">
+            <div className="tag_row small">
               {
                 resource.tags.map(tag => {
                   return <Tag
+                    className="small"
                     key={tag}
                     tag={tag}
-                    data-selected={selectedTags.has(tag) ? 'true' : 'false'}
+                    // data-selected={selectedTags.has(tag) ? 'true' : 'false'}
                     onClick={() => toggleTag(tag)}
                   />
                 })
