@@ -15,8 +15,8 @@ window.urls = {
   api: 'https://queer.thomasrosen.me/api/',
 }
 if (window.env === 'dev') {
-  window.urls.frontend = 'http://localhost:3000/'
-  window.urls.api = 'http://localhost:1337/api/'
+  window.urls.frontend = 'http://0.0.0.0:3000/'
+  window.urls.api = 'http://0.0.0.0:1721/api/'
 }
 
 ReactDOM.render(
