@@ -39,7 +39,7 @@ jobs:
         with:
           email: thomas.rosen@me.com
           build_dir: ./                         # optional
-          branch: deploy                        # optional
+          branch: deployment                    # optional
           # cname: queer.thomasrosen.me         # optional
           # jekyll: no                          # optional
           # commit_message: Build the frontend! # optional
