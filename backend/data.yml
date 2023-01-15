@@ -717,3 +717,15 @@ resources:
     west: -140.865411
     south: 41.781365
     east: -36.656280
+
+- title: pride.com
+  link: https://www.pride.com/
+  description: A queer news site.
+  tags:
+    - queer
+    - news
+  bbox:
+    north: 90
+    west: -180
+    south: -90
+    east: 180
