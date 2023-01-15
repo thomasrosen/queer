@@ -107,7 +107,7 @@ button.small {
   font-size: 14px;
 }
 button[data-selected="true"] {
-  box-shadow: 0 0 0 5px white;
+  box-shadow: 0 0 0 5px var(--text-color);
 }
 button:hover {
 	box-shadow: 0 0 0 10px var(--text-color);
