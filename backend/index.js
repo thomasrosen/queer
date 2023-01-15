@@ -147,7 +147,44 @@ app.get('/api/tags.json', (req, res) => {
     return
   }
 
-  let tags = data.resources
+  let resources = data.resources
+
+  let lat = null
+  if (req.query.hasOwnProperty('lat')) {
+    lat = parseFloat(req.query.lat || '')
+    if (isNaN(lat)) {
+      lat = null
+    }
+  }
+
+  let lon = null
+  if (req.query.hasOwnProperty('lon')) {
+    lon = parseFloat(req.query.lon || '')
+    if (isNaN(lon)) {
+      lon = null
+    }
+  }
+
+  if (lat && lon) {
+    resources = resources
+    .filter((resource) => {
+      // check if lat/lon is in resource.bbox
+      if (resource.bbox) {
+        if (
+          lat <= resource.bbox.north &&
+          lat >= resource.bbox.south &&
+          lon <= resource.bbox.east &&
+          lon >= resource.bbox.west
+        ) {
+          return true
+        }
+      }
+
+      return false
+    })
+  }
+
+  let tags = resources
     .flatMap((resource) => resource.tags)
     .filter((tag, index, self) => self.indexOf(tag) === index)
     .filter(Boolean)
