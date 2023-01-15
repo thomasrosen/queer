@@ -16,7 +16,7 @@ window.urls = {
 }
 if (window.env === 'dev') {
   window.urls.frontend = 'http://0.0.0.0:3000/'
-  window.urls.api = 'http://0.0.0.0:1721/api/'
+  window.urls.api = 'http://0.0.0.0:17215/api/'
 }
 
 ReactDOM.render(
