@@ -31,8 +31,7 @@ jobs:
       - name: Add gh-pages as a dev-dependency
         run: cd ./frontend/ && yarn add --dev gh-pages
       - name: Build ReactJS App
-        run: cd ./frontend/ && rm -R ./node_modules/
-        # yarn build &&
+        run: cd ./frontend/ && yarn build && rm -R ./node_modules/
       - name: Deploy to GitHub Pages
         uses: Cecilapp/GitHub-Pages-deploy@3.1.0
         env:
