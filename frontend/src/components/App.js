@@ -75,6 +75,34 @@ export default function App() {
       })
   }, [])
 
+  const loadTags = React.useCallback(() => {
+
+    const current_url = new URL(window.location);
+    const latitude = (current_url.searchParams.get('lat') || '')
+    const longitude = (current_url.searchParams.get('lon') || '')
+
+    const search_params_data = {}
+
+    if (
+      typeof latitude === 'string' && latitude.length > 0 &&
+      typeof longitude === 'string' && longitude.length > 0
+    ) {
+      search_params_data.lat = latitude
+      search_params_data.lon = longitude
+    }
+
+    const search_params = new URLSearchParams(search_params_data).toString()
+
+    const url = `${window.urls.api}tags.json${search_params.length > 0 ? '?' + search_params : ''}`;
+
+    fetch(url)
+      .then((response) => response.json())
+      .then((data) => {
+        setTags(data.tags)
+      })
+
+  }, [])
+
   const getLocation = React.useCallback(() => {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition((position) => {
@@ -90,6 +118,7 @@ export default function App() {
           ['lon', new_longitude],
         ]))
 
+        loadTags()
         loadResources()
       }, (error) => {
         setError(error.message)
@@ -97,7 +126,7 @@ export default function App() {
     } else {
       setError('Geolocation is not supported by this browser.')
     }
-  }, [loadResources])
+  }, [loadTags, loadResources])
 
   const clearLocation = React.useCallback(() => {
     setLatitude(null)
@@ -106,8 +135,9 @@ export default function App() {
       ['lat', ''],
       ['lon', ''],
     ]))
+    loadTags()
     loadResources()
-  }, [loadResources])
+  }, [loadTags, loadResources])
 
   const toggleTag = React.useCallback(tag => {
 
@@ -136,14 +166,9 @@ export default function App() {
     const selected_tags = (current_url.searchParams.get('tags') || '').split(',')
     setSelectedTags(new Set(selected_tags))
 
-    fetch(window.urls.api + 'tags.json')
-    .then((response) => response.json())
-    .then((data) => {
-      setTags(data.tags)
-    })
-
+    loadTags()
     loadResources()
-  }, [loadResources])
+  }, [loadTags, loadResources])
 
   return <div className="app_wrapper">
     <header>
