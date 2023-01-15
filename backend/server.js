@@ -1,8 +1,7 @@
 require('dotenv').config()
 
-const is_prod = true // process.env.NODE_ENV === 'production'
-const host = '0.0.0.0'
-const port = 1337
+const isDevEnvironment = process.env.environment === 'dev' || false
+
 const express = require('express')
 
 const {
@@ -148,11 +147,14 @@ app.get('/api/tags.json', (req, res) => {
 //   res.sendFile('index.html', { root: '../frontend/build/' })
 // })
 
-if (is_prod) {
-  app.use('/', express.static('../../frontend/'))
-} else {
+if (isDevEnvironment) {
   app.use('/', express.static('../frontend/build/'))
+} else {
+  app.use('/', express.static('../../frontend/'))
 }
+
+const port = 1721 // queer = 17 21 5 5 18
+const host = '0.0.0.0' // Uberspace wants 0.0.0.0
 app.listen(port, host, () => {
   const url = `http://${host}:${port}`
   console.log(`Server listening at ${url}`)
