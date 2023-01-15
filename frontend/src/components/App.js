@@ -193,7 +193,11 @@ export default function App() {
                 {resource.title}
               </a>
             </h3>
-            <p>{resource.description}</p>
+            {
+              !!resource.description && resource.description.length > 0
+                ? <p>{resource.description}</p>
+                : null
+            }
             <div className="tag_row small">
               {
                 resource.tags.map(tag => {
@@ -209,6 +213,16 @@ export default function App() {
             </div>
           </div>
         })
+      }
+      {
+        resources && resources.length === 0
+          ? <p>No resources found.</p>
+          : null
+      }
+      {
+        !resources
+          ? <p>Loading...</p>
+          : null
       }
 
       <Outlet />

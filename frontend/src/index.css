@@ -137,18 +137,22 @@ code {
 }
 
 a,
-.link {
+a:hover,
+a:active,
+a:focus {
   color: var(--primary-color);
   text-decoration: none;
   text-decoration-color: var(--primary-color);
 }
-
-a:hover,
-.link:hover {
-  color: var(--primary-color);
+a:hover {
   text-decoration: underline;
-  /* text-decoration-style: double; */
   text-decoration-color: currentColor;
+}
+h3 > a,
+h3 > a:hover,
+h3 > a:active,
+h3 > a:focus {
+  color: var(--text-color);
 }
 
 hr {
