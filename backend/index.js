@@ -147,11 +147,7 @@ app.get('/api/tags.json', (req, res) => {
 //   res.sendFile('index.html', { root: '../frontend/build/' })
 // })
 
-if (isDevEnvironment) {
-  app.use('/', express.static('../frontend/build/'))
-} else {
-  app.use('/', express.static('../../frontend/'))
-}
+app.use('/', express.static('../frontend/build/'))
 
 const port = 1721 // queer = 17 21 5 5 18
 const host = '0.0.0.0' // Uberspace wants 0.0.0.0
