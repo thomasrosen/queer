@@ -98,20 +98,28 @@ resources:
   link: https://library.wustl.edu/mapping-lgbtq-st-louis-online/
   links:
     - [arcgis_map, https://wustl.maps.arcgis.com/apps/MapSeries/index.html?appid=19fbb02a5c2f40eebfacc794aa3372dd]
+  tags:
+    - queer
 
 - title:
     en: Multiple maps of the US and New York
   link: https://www.allwevegot.org/research/maps-maps-all-the-queer-maps/
+  tags:
+    - queer
 
 - title:
     en: Popular places but not neccessary primary queer places
   link: https://travelsofadam.com/gay-travel/
+  tags:
+    - queer
 
 - title:
     en: Historic queer places in Montreal
   link: https://storymaps.arcgis.com/stories/fa26398f934c4f7484f8eedc2dac3b03
   links:
     - [google_map, https://www.google.com/maps/d/u/0/embed?mid=1SS77K0liNuThK_kfkQ5408nZ_UuG5XXF&ll=45.51422448809261%2C-73.5853932&z=14]
+  tags:
+    - queer
 
 - title:
     en: History queer places in New York
@@ -125,12 +133,16 @@ resources:
   link: https://www.lgbtcampus.org/lgbt-map
   links:
     - [google_map, https://www.google.com/maps/d/u/0/viewer?mid=1uYlF3milN1euuDcLS_iXLncpsHQ&ll=39.22637344002685%2C-61.28580020000004&z=2]
+  tags:
+    - queer
 
 - title:
     en: Queere Jugendgruppen in Niedersachsen
   link: https://www.queerejugend-nds.de/netzwerk/
   links:
     - [google_map, https://www.google.com/maps/d/u/0/viewer?mid=1cFqlhsNLpoK-ia1zR1Q3ASMxDgLOhpFx&ll=52.33275722782431%2C9.452727791969892&z=8]
+  tags:
+    - queer
 
 - title:
     en: Queer places in Rheinlandpfalz, Germany
@@ -141,64 +153,90 @@ resources:
     - [Koblenz, https://www.queernet-rlp.de/regionen/koblenz]
     - [Trier, https://www.queernet-rlp.de/regionen/trier]
     - [Überregional, https://www.queernet-rlp.de/regionen/uberregional] # -> https://www.queernet-rlp.de/wp-content/uploads/flyer_landesweit1.pdf
+  tags:
+    - queer
 
 - title:
     en: LSBTTIQ youthgroups in Baden-Württemberg, Germany
   link: https://www.netzwerk-lsbttiq.net/index.php/jugend/jugendgruppen
+  tags:
+    - queer
 
 - title:
     en: Queer groups in Heidelberg, Germany
   link: http://www.queeres-netzwerk-hd.de/lesbisch-schwul-transsexuell-heidelberg/gruppen-im-queeren-netzwerk/
+  tags:
+    - queer
 
 - title:
     en: Five places in Sitzerland
   link: https://www.mycheckpoint.ch/de/standorte
+  tags:
+    - queer
 
 - title:
     en: Queer places in Stockholm, Sweden
   link: https://www.visitstockholm.com/the-lgbt-guide-to-stockholm/
+  tags:
+    - queer
 
 - title:
     en: Queer places in Gothenburg, Sweden
   link: https://www.goteborg.com/en/lgbt-gothenburg/
+  tags:
+    - queer
 
 - title:
     en: Atlas nienawiści (Atlas of Hate)
   description:
     en: A map of LGBT-free-zones in Poland.
   link: https://atlasnienawisci.pl/
+  tags:
+    - queer
 
 - title:
     en: LGBT Safe Spaces in the Philippines
   description:
     en: Collected by MapBeks
   link: http://umap.openstreetmap.fr/en/map/lgbt-safe-spaces-in-the-philippines_447363
+  tags:
+    - queer
 
 - title:
     en: HIV-Facilities in the Philippines
   description:
     en: Collected by MapBeks
   link: https://www.mapcontrib.xyz/t/8839cf-HIV_Testing_and_Counselling_Centers_in_the_Philippines
+  tags:
+    - queer
 
 - title:
     en: LGBTQI Spaces in the Philippines
   link: https://www.mapcontrib.xyz/t/0e23d7-LGBTQI_Spaces_in_the_Philippines
+  tags:
+    - queer
 
 - title:
     en: Trans and genderqueer friendly accommodations
   description:
     en: A blog with a few information.
   link: https://queer-traveling.tumblr.com/
+  tags:
+    - queer
 
 - title:
     en: Queer Country Stories
   link: https://instagram.com/countryqueers
+  tags:
+    - queer
 
 - title:
     en: Queer places in Munich, Germany
   link: https://queermap.wixsite.com/home
   links:
     - [google_map, https://www.google.com/maps/d/u/0/viewer?mid=1V-eYnbD-7U_rxH_Srf-DZrFkuIA7A3Q-]
+  tags:
+    - queer
 
 - title:
     en: Old network of places in Germany
@@ -210,10 +248,14 @@ resources:
 - title:
     en: Map of A\*spec groups in Germany
   link: https://umap.openstreetmap.de/de/map/aspec-treffen_4104
+  tags:
+    - queer
 
 - title:
     en: List of A\*spec groups in Germany
   link: http://asex-web.de/
+  tags:
+    - queer
 
 - title:
     en: Queer Zone — LGBTQ venues in Hanoi city, Vietnam
@@ -225,22 +267,30 @@ resources:
     west: 105.74837568794268
     south: 20.95871539699129
     east: 105.9299326739163
+  tags:
+    - queer
 
 - title:
     en: Refuge restrooms
   description:
     en: Safe restroom locations for trans, intersex, and gender nonconforming individuals.
   link: https://www.refugerestrooms.org/
+  tags:
+    - queer
 
 - title:
     en: City Guides all over the world (commercial oriented)
   description:
     en: „Your gay travel guide — Find LGBTQ friendly businesses and community events around the world”
   link: https://www.gaycities.com/
+  tags:
+    - queer
 
 - title:
     en: Directory of LGBTQ/SGM health professionals in America
   link: https://glmaimpak.networkats.com/members_online_new/members/dir_provider.asp
+  tags:
+    - queer
 
 - title:
     de: Gay Szene Deutschland
@@ -249,6 +299,8 @@ resources:
     de: Deutschlandweite Karte mit Ort bei denen queere Menschen willkommen sind. Queere Orte sind nicht von nicht-queeren Orten zu unterscheiden.
     en: Germany-wide map with places where queer people are welcome. Queer places are indistinguishable from non-queer places.
   link: https://www.inqueery.de/guide/deutschland/szene
+  tags:
+    - queer
 
 - title:
     en: Locating Queer Memories
@@ -305,13 +357,13 @@ resources:
   description:
     de: Infos zu Aspec-Treffen im deutschsprachigen Raum.
   link: https://aspec-treffen.github.io/map/
-  tags:
-    - queer
-    - map
-    - places
   bbox:
     north: 55.479 # latitude
     west: 3.647 # longitude
     south: 45.737 # latitude
     east: 18.062 # longitude
+  tags:
+    - queer
+    - map
+    - places
 
