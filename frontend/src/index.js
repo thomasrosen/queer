@@ -9,7 +9,7 @@ import {
 
 // import reportWebVitals from './reportWebVitals';
 
-window.env = 'dev' // dev / prod
+window.env = 'prod' // dev / prod
 window.urls = {
   frontend: 'https://queer.thomasrosen.me/',
   api: 'https://queer.thomasrosen.me/api/',
