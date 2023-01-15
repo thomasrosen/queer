@@ -60,7 +60,6 @@ export default function App() {
       search_params_data.lon = longitude
     }
 
-    console.log('tags', tags)
     if (Array.isArray(tags) && tags.length > 0) {
       search_params_data.tags = tags.join(',')
     }
@@ -68,13 +67,11 @@ export default function App() {
     const search_params = new URLSearchParams(search_params_data).toString()
 
     const url = `${window.urls.api}resources.json${search_params.length > 0 ? '?' + search_params : ''}`;
-    console.log(url);
 
     fetch(url)
       .then((response) => response.json())
       .then((data) => {
         setResources(data.resources)
-        console.log(data.resources)
       })
   }, [])
 
