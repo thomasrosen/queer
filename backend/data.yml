@@ -702,12 +702,11 @@ resources:
     - events
 
 - title: Queer Events
-  description:
-    |
-      A network for indigenous, black and queer people of colour.
-      — "Queer Events (QE) is a local 2SLGBTQIA+ organization committed to working towards a strong, inclusive & accessible Queer community.
+  description: |
+    A network for indigenous, black and queer people of colour.
+    — "Queer Events (QE) is a local 2SLGBTQIA+ organization committed to working towards a strong, inclusive & accessible Queer community.
     
-      Queer Events operates in Deshkan Ziibiing, which is the traditional territory of the Anishinaabek, Haudenosaunee, Lenape and Attawandaron Nations – each of whom have left their lasting mark upon the history of this area. Today, Deshkan Ziibiing and the surrounding area are subject to the Upper Canada treaties and specifically the Longwoods Treaty of 1822."
+    Queer Events operates in Deshkan Ziibiing, which is the traditional territory of the Anishinaabek, Haudenosaunee, Lenape and Attawandaron Nations – each of whom have left their lasting mark upon the history of this area. Today, Deshkan Ziibiing and the surrounding area are subject to the Upper Canada treaties and specifically the Longwoods Treaty of 1822."
   link: https://www.queerevents.ca
   tags:
     - queer
@@ -742,3 +741,35 @@ resources:
     west: 5.9
     south: 47.3
     east: 15.0
+
+- title:
+    de: Queer Lexikon
+  description:
+    de: |
+      \"Wir informieren über sexuelle, romantische und geschlechtliche Vielfalt. Wir sind eine Online-Anlaufstelle für lesbische, schwule, bi+sexuelle, a_sexuelle, a_romantische, trans, nicht-binäre, inter*, polyamouröse und queere Jugendliche und Kinder aus Regenbogenfamilien. Organisiert sind wir als gemeinnütziger Verein.\"
+  link: https://queer-lexikon.net/
+  tags:
+    - queer
+    - knowledge
+    - groups
+    - places
+    - events
+  bbox:
+    north: 55.1
+    west: 5.9
+    south: 47.3
+    east: 15.0
+
+- title: AndersARTiG
+  descripton: \"Lesben, Schwule Bisexuelle & Trans* im Land Brandenburg\"
+  link: https://andersartig.info/
+  tags:
+    - queer
+    - network
+    - groups
+    - knowledge
+  bbox:
+    north: 53.599628
+    west: 10.940320
+    south: 51.386357
+    east: 14.920935
