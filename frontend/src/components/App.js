@@ -166,8 +166,17 @@ export default function App() {
     const selected_tags = (current_url.searchParams.get('tags') || '').split(',')
     setSelectedTags(new Set(selected_tags))
 
-    loadTags()
-    loadResources()
+    function reload() {
+      loadTags()
+      loadResources()
+    }
+    reload()
+
+    window.addEventListener('popstate', reload)
+
+    return () => {
+      window.removeEventListener('popstate', reload)
+    }
   }, [loadTags, loadResources])
 
   return <div className="app_wrapper">
@@ -183,6 +192,8 @@ export default function App() {
       <p>A collection of resources for queer people. You're of course also welcome to look through the information if you are an ally.</p>
 
       <p>You can filter the links via your location and some tags.</p>
+
+      <p>The website is maintained by <a href="https://thomasrosen.me/" target="_blank" rel="noreferrer">Thomas Rosen</a>.</p>
 
       <br />
 
