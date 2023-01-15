@@ -591,3 +591,70 @@ resources:
     - queer
     - places
 
+- title:
+    en: "Gay Berlin: Your guide for LGBTIQ+ in Berlin"
+  link: https://www.visitberlin.de/en/gay-berlin-lgbtq-guide-berlin
+  bbox:
+    north: 52.6
+    west: 13.1
+    south: 52.3
+    east: 13.6
+  tags:
+    - queer
+    - places
+
+- title: "Gay Berlin: 7 Insane Must-Do’s for the LGBTQ+ Community in Berlin"
+  link: https://www.travelgenz.org/gay-berlin/
+  bbox:
+    north: 52.6
+    west: 13.1
+    south: 52.3
+    east: 13.6
+  tags:
+    - queer
+    - places
+
+- title: "Queer Nightlife in Berlin: The Best LGBTQ Bars and Clubs"
+  link: https://theculturetrip.com/europe/germany/berlin/articles/queer-nightlife-in-berlin-the-best-lgbtq-bars-and-clubs/
+  bbox:
+    north: 52.6
+    west: 13.1
+    south: 52.3
+    east: 13.6
+  tags:
+    - queer
+    - places
+
+- title: Berlin's gay neighbourhoods
+  link: https://www.visitberlin.de/en/berlins-gay-neighbourhoods
+  bbox:
+    north: 52.6
+    west: 13.1
+    south: 52.3
+    east: 13.6
+  tags:
+    - queer
+    - places
+
+- title: 11 Queer Spots in Berlin
+  link: https://www.walk-this-way.net/2017/07/22/11-queer-spots-in-berlin/
+  bbox:
+    north: 52.6
+    west: 13.1
+    south: 52.3
+    east: 13.6
+  tags:
+    - queer
+    - places
+
+- title: Gay Berlin
+  link: https://www.berlin.de/en/events/gay/
+  bbox:
+    north: 52.6
+    west: 13.1
+    south: 52.3
+    east: 13.6
+  tags:
+    - queer
+    - places
+    - events
