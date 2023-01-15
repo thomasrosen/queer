@@ -9,7 +9,15 @@ import {
 
 // import reportWebVitals from './reportWebVitals';
 
-window.env = 'prod' // dev / prod
+// check if domain is 0.0.0.0
+const isLocalhost = Boolean(
+  window.location.hostname === '0.0.0.0' ||
+  window.location.hostname === 'localhost' ||
+  // [::1] is the IPv6 localhost address.
+  window.location.hostname === '[::1]'
+)
+
+window.env = isLocalhost === true ? 'dev' : 'prod'
 window.urls = {
   frontend: 'https://queer.thomasrosen.me/',
   api: 'https://queer.thomasrosen.me/api/',
