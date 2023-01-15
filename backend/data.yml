@@ -685,3 +685,19 @@ resources:
     - queer
     - network
     - places
+
+- title: queer.de
+  link: https://www.queer.de/
+  description:
+    de: Queeres Nachrichten Magazin auf Deutsch. — "Das Zentralorgan der Homo-Lobby. Magazin für skurrile Minderheiten. Stimme des Regenbogen-Imperiums. LGBTI-Propaganda & GenderGaga vom Feinsten."
+  bbox:
+    north: 55.1
+    west: 5.9
+    south: 47.3
+    east: 15.0
+  tags:
+    - queer
+    - news
+    - places
+    - events
+
