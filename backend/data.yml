@@ -701,3 +701,19 @@ resources:
     - places
     - events
 
+- title: Queer Events
+  description:
+    |
+      A network for indigenous, black and queer people of colour.
+      — "Queer Events (QE) is a local 2SLGBTQIA+ organization committed to working towards a strong, inclusive & accessible Queer community.
+    
+      Queer Events operates in Deshkan Ziibiing, which is the traditional territory of the Anishinaabek, Haudenosaunee, Lenape and Attawandaron Nations – each of whom have left their lasting mark upon the history of this area. Today, Deshkan Ziibiing and the surrounding area are subject to the Upper Canada treaties and specifically the Longwoods Treaty of 1822."
+  link: https://www.queerevents.ca
+  tags:
+    - queer
+    - network
+  bbox:
+    north: 62.548851
+    west: -140.865411
+    south: 41.781365
+    east: -36.656280
