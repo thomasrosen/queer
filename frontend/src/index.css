@@ -9,9 +9,9 @@ body {
 
 
 :root {
-  --text-color: #00150f;
+  --text-color: #000b13;
   --background-color: #fff;
-  --primary-color: #00d095;
+  --primary-color: #007ed9;
 
   --content-box-width: 620px;
   
@@ -23,8 +23,8 @@ body {
 @media (prefers-color-scheme: dark) {
   :root {
     --text-color: #fff;
-    --background-color: #00150f;
-    --primary-color: #00d095;
+    --background-color: #000b13;
+    --primary-color: #007ed9;
   }
 }
 
@@ -48,7 +48,7 @@ body {
 h1 {
   font-family: var(--font-family-headline);
   font-weight: bold;
-  font-size: 109px;
+  font-size: 80px;
   letter-spacing: -1.5px;
 }
 
@@ -110,21 +110,21 @@ button[data-selected="true"] {
   box-shadow: 0 0 0 5px white;
 }
 button:hover {
-	box-shadow: 0 0 0 10px var(--primary-color);
+	box-shadow: 0 0 0 10px var(--text-color);
 	color: var(--background-color);
 	fill: var(--background-color);
 	background: var(--text-color);
 	text-decoration: none;
 }
 button.small:hover {
-  box-shadow: 0 0 0 5px var(--primary-color);
+  box-shadow: 0 0 0 5px var(--text-color);
 }
 button:active,
 button:focus,
 button.active {
 	color: var(--background-color);
 	fill: var(--background-color);
-	background: var(--primary-color);
+	background: var(--text-color);
 	text-decoration: none;
 }
 button:disabled {
@@ -140,20 +140,22 @@ a,
 a:hover,
 a:active,
 a:focus {
-  color: var(--primary-color);
+  color: var(--text-color);
   text-decoration: none;
-  text-decoration-color: var(--primary-color);
+  text-decoration-color: var(--text-color);
 }
 a:hover {
   text-decoration: underline;
   text-decoration-color: currentColor;
 }
+/*
 h3 > a,
 h3 > a:hover,
 h3 > a:active,
 h3 > a:focus {
   color: var(--text-color);
 }
+*/
 
 hr {
   border: 0;

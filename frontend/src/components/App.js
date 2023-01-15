@@ -150,27 +150,37 @@ export default function App() {
 
   return <div className="app_wrapper">
     <header>
-      <h1>Queer Resources</h1>
+      <h1>QR</h1>
       <a href="https://github.com/thomasrosen/queer" target="_blank" rel="noreferrer">Sourcecode</a>
     </header>
     
     <main>
+      <h1>Queer Resources</h1>
+      <br />
 
       <p>A collection of resources for queer people. You're of course also welcome to look through the information if you are an ally.</p>
 
       <p>You can filter the links via your location and some tags.</p>
 
+      <br />
+
       {error && <p>Error: {error}</p>}
 
       <div className="tag_row">
         <button onClick={getLocation}>Filter for resources near you</button>
-        <button onClick={clearLocation}>Clear location filter</button>
+        {
+          latitude && longitude
+          ? <button onClick={clearLocation}>Clear Location</button>
+          : null
+        }
       </div>
       {
         latitude && longitude
           ? <p>Location: {latitude} / {longitude}</p>
           : null
       }
+
+      <br />
 
       <div className="tag_row">
         { tags && tags.map(tag => {
@@ -183,11 +193,13 @@ export default function App() {
         }) }
       </div>
 
+      <br />
+      <br />
+
       {
         resources &&
         resources.map(resource => {
           return <div key={JSON.stringify(resource)}>
-            <br />
             <h3>
               <a href={resource.link} target="_blank" rel="noreferrer">
                 {resource.title}
@@ -211,6 +223,7 @@ export default function App() {
                 })
               }
             </div>
+            <br />
           </div>
         })
       }

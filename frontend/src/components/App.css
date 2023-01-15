@@ -46,3 +46,6 @@ main {
   gap: 10px;
   margin: 10px 0;
 }
+.tag_row button {
+  filter: saturate(2);
+} 
