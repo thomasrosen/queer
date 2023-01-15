@@ -1,3 +1,6 @@
+require('dotenv').config()
+
+const is_prod = true // process.env.NODE_ENV === 'production'
 const host = '0.0.0.0'
 const port = 1337
 const express = require('express')
@@ -144,7 +147,12 @@ app.get('/api/tags.json', (req, res) => {
 // app.get('/', (req, res) => {
 //   res.sendFile('index.html', { root: '../frontend/build/' })
 // })
-app.use('/', express.static('../frontend/build/'))
+
+if (is_prod) {
+  app.use('/', express.static('../../frontend/'))
+} else {
+  app.use('/', express.static('../frontend/build/'))
+}
 app.listen(port, host, () => {
   const url = `http://${host}:${port}`
   console.log(`Server listening at ${url}`)
