@@ -38,8 +38,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           email: thomas.rosen@me.com
-          build_dir: ./frontend/build           # optional
-          branch: frontend_deploy               # optional
+          build_dir: ./                         # optional
+          branch: deploy                        # optional
           # cname: queer.thomasrosen.me         # optional
           # jekyll: no                          # optional
           # commit_message: Build the frontend! # optional
