@@ -729,3 +729,16 @@ resources:
     west: -180
     south: -90
     east: 180
+
+- title: lambda
+  description:
+    de: "\"Lambda Bund ist für alle, die jung sind und queer. Egal ob lesbisch, schwul, bi, trans*, inter*, queer oder einfach noch unsicher: Hier ist ein Raum für dich.\""
+  link: https://lambda-online.de/
+  tags:
+    - queer
+    - network
+  bbox:
+    north: 55.1
+    west: 5.9
+    south: 47.3
+    east: 15.0
