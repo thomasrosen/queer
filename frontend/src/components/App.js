@@ -155,6 +155,10 @@ export default function App() {
     
     <main>
 
+      <a href="https://github.com/thomasrosen/queer" target="_blank" rel="noreferrer">Sourcecode</a>
+      <br />
+      <br />
+
       {error && <p>Error: {error}</p>}
 
       <button onClick={getLocation}>Filter for resources near you</button>
