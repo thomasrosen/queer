@@ -172,12 +172,12 @@ export default function App() {
 
   return <div className="app_wrapper">
     <header>
-      <h1>QR</h1>
+      <h1>🏳️‍🌈 QR</h1>
       <a href="https://github.com/thomasrosen/queer" target="_blank" rel="noreferrer">Sourcecode</a>
     </header>
     
     <main>
-      <h1>Queer Resources</h1>
+      <h1>🏳️‍🌈 Queer Resources</h1>
       <br />
 
       <p>A collection of resources for queer people. You're of course also welcome to look through the information if you are an ally.</p>
