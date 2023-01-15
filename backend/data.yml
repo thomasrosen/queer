@@ -36,6 +36,11 @@ resources:
   tags:
     - queer
     - places
+  bbox:
+    north: 55.435
+    west: 5.098
+    south: 47.510
+    east: 15.798
 
 - title:
     en: Queer places in Hessen, Germany
@@ -45,6 +50,11 @@ resources:
   tags:
     - queer
     - places
+  bbox:
+    north: 50.603440945
+    west: 8.9538113
+    south: 49
+    east: 9
 
 - title:
     en: Queer places in Dortmund, Germany
@@ -52,6 +62,11 @@ resources:
   tags:
     - queer
     - places
+  bbox:
+    north: 51.5
+    west: 6.5
+    south: 51
+    east: 7
 
 - title:
     en: Historic queer places in Los Angeles (1)
@@ -59,6 +74,12 @@ resources:
   tags:
     - queer
     - places
+    - historical
+  bbox:
+    north: 34.3373068
+    west: -118.1552891
+    south: 33.7036519
+    east: -118.668175
 
 - title:
     en: Historic queer places in Los Angeles (2)
@@ -66,6 +87,12 @@ resources:
   tags:
     - queer
     - places
+    - historical
+  bbox:
+    north: 34.3373068
+    west: -118.1552891
+    south: 33.7036519
+    east: -118.668175
 
 - title:
     en: Queer places in Edinburgh
@@ -76,6 +103,11 @@ resources:
   tags:
     - queer
     - places
+  bbox:
+    north: 55.953252
+    west: -3.188267
+    south: 55.946252
+    east: -3.181267
 
 - title:
     en: LGBT youth groups in Scotland
@@ -83,6 +115,12 @@ resources:
   tags:
     - queer
     - groups
+    - youth
+  bbox:
+    north: 60.85
+    west: -7.5
+    south: 54.55
+    east: 1.75
 
 - title:
     en: Data of historic gay-guides
@@ -92,6 +130,12 @@ resources:
   tags:
     - queer
     - historical
+    - gay
+  bbox:
+    north: 90
+    west: -180
+    south: -90
+    east: 180
 
 - title:
     en: Queer places in St. Lois, USA
@@ -100,18 +144,36 @@ resources:
     - [arcgis_map, https://wustl.maps.arcgis.com/apps/MapSeries/index.html?appid=19fbb02a5c2f40eebfacc794aa3372dd]
   tags:
     - queer
+    - places
+  bbox:
+    north: 38.75
+    west: -90.5
+    south: 38.25
+    east: -90
 
 - title:
     en: Multiple maps of the US and New York
   link: https://www.allwevegot.org/research/maps-maps-all-the-queer-maps/
   tags:
     - queer
+    - places
+  bbox:
+    north: 49.5
+    west: -125
+    south: 24.5
+    east: -66.5
 
 - title:
     en: Popular places but not neccessary primary queer places
   link: https://travelsofadam.com/gay-travel/
   tags:
     - queer
+    - places
+  bbox:
+    north: 90
+    west: -180
+    south: -90
+    east: 180
 
 - title:
     en: Historic queer places in Montreal
@@ -120,6 +182,13 @@ resources:
     - [google_map, https://www.google.com/maps/d/u/0/embed?mid=1SS77K0liNuThK_kfkQ5408nZ_UuG5XXF&ll=45.51422448809261%2C-73.5853932&z=14]
   tags:
     - queer
+    - historical
+    - places
+  bbox:
+    north: 45.514224488
+    west: -73.5853932
+    south: 45.514224488
+    east: -73.5853932
 
 - title:
     en: History queer places in New York
@@ -127,6 +196,12 @@ resources:
   tags:
     - queer
     - historical
+    - places
+  bbox:
+    north: 40.9175771
+    west: -74.25909
+    south: 40.4773991
+    east: -73.7002721
 
 - title:
     en: Map of LGBTQ resources at US-Universities
@@ -135,6 +210,12 @@ resources:
     - [google_map, https://www.google.com/maps/d/u/0/viewer?mid=1uYlF3milN1euuDcLS_iXLncpsHQ&ll=39.22637344002685%2C-61.28580020000004&z=2]
   tags:
     - queer
+    - youth
+  bbox:
+    north: 49.5
+    west: -125
+    south: 24.5
+    east: -66.5
 
 - title:
     en: Queere Jugendgruppen in Niedersachsen
@@ -143,6 +224,13 @@ resources:
     - [google_map, https://www.google.com/maps/d/u/0/viewer?mid=1cFqlhsNLpoK-ia1zR1Q3ASMxDgLOhpFx&ll=52.33275722782431%2C9.452727791969892&z=8]
   tags:
     - queer
+    - groups
+    - youth
+  bbox:
+    north: 54.9
+    west: 7.6
+    south: 51.3
+    east: 11.2
 
 - title:
     en: Queer places in Rheinlandpfalz, Germany
@@ -155,36 +243,73 @@ resources:
     - [Überregional, https://www.queernet-rlp.de/regionen/uberregional] # -> https://www.queernet-rlp.de/wp-content/uploads/flyer_landesweit1.pdf
   tags:
     - queer
+    - places
+  bbox:
+    north: 50.2
+    west: 6.6
+    south: 49.3
+    east: 8.1
 
 - title:
     en: LSBTTIQ youthgroups in Baden-Württemberg, Germany
   link: https://www.netzwerk-lsbttiq.net/index.php/jugend/jugendgruppen
   tags:
     - queer
+    - groups
+    - youth
+  bbox:
+    north: 48.2
+    west: 8.5
+    south: 47.3
+    east: 9.2
 
 - title:
     en: Queer groups in Heidelberg, Germany
   link: http://www.queeres-netzwerk-hd.de/lesbisch-schwul-transsexuell-heidelberg/gruppen-im-queeren-netzwerk/
   tags:
     - queer
+    - groups
+  bbox:
+    north: 49.4
+    west: 8.6
+    south: 49.4
+    east: 8.6
 
 - title:
     en: Five places in Sitzerland
   link: https://www.mycheckpoint.ch/de/standorte
   tags:
     - queer
+    - places
+  bbox:
+    north: 47.8
+    west: 5.9
+    south: 45.8
+    east: 10.5
 
 - title:
     en: Queer places in Stockholm, Sweden
   link: https://www.visitstockholm.com/the-lgbt-guide-to-stockholm/
   tags:
     - queer
+    - places
+  bbox:
+    north: 59.4
+    west: 17.9
+    south: 59.2
+    east: 18.1
 
 - title:
     en: Queer places in Gothenburg, Sweden
   link: https://www.goteborg.com/en/lgbt-gothenburg/
   tags:
     - queer
+    - places
+  bbox:
+    north: 57.7
+    west: 11.9
+    south: 57.6
+    east: 12.1
 
 - title:
     en: Atlas nienawiści (Atlas of Hate)
@@ -193,6 +318,11 @@ resources:
   link: https://atlasnienawisci.pl/
   tags:
     - queer
+  bbox:
+    north: 54.9
+    west: 14.1
+    south: 49.0
+    east: 24.2
 
 - title:
     en: LGBT Safe Spaces in the Philippines
@@ -201,6 +331,12 @@ resources:
   link: http://umap.openstreetmap.fr/en/map/lgbt-safe-spaces-in-the-philippines_447363
   tags:
     - queer
+    - places
+  bbox:
+    north: 21.1
+    west: 116.1
+    south: 4.6
+    east: 126.6
 
 - title:
     en: HIV-Facilities in the Philippines
@@ -209,12 +345,24 @@ resources:
   link: https://www.mapcontrib.xyz/t/8839cf-HIV_Testing_and_Counselling_Centers_in_the_Philippines
   tags:
     - queer
+    - places
+  bbox:
+    north: 21.1
+    west: 116.1
+    south: 4.6
+    east: 126.6
 
 - title:
     en: LGBTQI Spaces in the Philippines
   link: https://www.mapcontrib.xyz/t/0e23d7-LGBTQI_Spaces_in_the_Philippines
   tags:
     - queer
+    - places
+  bbox:
+    north: 21.1
+    west: 116.1
+    south: 4.6
+    east: 126.6
 
 - title:
     en: Trans and genderqueer friendly accommodations
@@ -223,12 +371,24 @@ resources:
   link: https://queer-traveling.tumblr.com/
   tags:
     - queer
+    - places
+    - trans
+  bbox:
+    north: 90
+    west: -180
+    south: -90
+    east: 180
 
 - title:
     en: Queer Country Stories
   link: https://instagram.com/countryqueers
   tags:
     - queer
+  bbox:
+    north: 90
+    west: -180
+    south: -90
+    east: 180
 
 - title:
     en: Queer places in Munich, Germany
@@ -237,6 +397,12 @@ resources:
     - [google_map, https://www.google.com/maps/d/u/0/viewer?mid=1V-eYnbD-7U_rxH_Srf-DZrFkuIA7A3Q-]
   tags:
     - queer
+    - places
+  bbox:
+    north: 48.2
+    west: 11.5
+    south: 48.0
+    east: 11.7
 
 - title:
     en: Old network of places in Germany
@@ -244,18 +410,37 @@ resources:
   tags:
     - queer
     - network
+    - places
+  bbox:
+    north: 55.1
+    west: 5.9
+    south: 47.3
+    east: 15.0
 
 - title:
     en: Map of A\*spec groups in Germany
   link: https://umap.openstreetmap.de/de/map/aspec-treffen_4104
   tags:
     - queer
+    - groups
+    - places
+  bbox:
+    north: 55.1
+    west: 5.9
+    south: 47.3
+    east: 15.0
 
 - title:
     en: List of A\*spec groups in Germany
   link: http://asex-web.de/
   tags:
     - queer
+    - groups
+  bbox:
+    north: 55.1
+    west: 5.9
+    south: 47.3
+    east: 15.0
 
 - title:
     en: Queer Zone — LGBTQ venues in Hanoi city, Vietnam
@@ -269,14 +454,18 @@ resources:
     east: 105.9299326739163
   tags:
     - queer
+    - places
 
-- title:
-    en: Refuge restrooms
-  description:
-    en: Safe restroom locations for trans, intersex, and gender nonconforming individuals.
-  link: https://www.refugerestrooms.org/
-  tags:
-    - queer
+# - title:
+#     en: Refuge restrooms
+#   description:
+#     en: Safe restroom locations for trans, intersex, and gender nonconforming individuals.
+#   link: https://www.refugerestrooms.org/
+#   bbox:
+#     north: 90
+#     west: -180
+#     south: -90
+#     east: 180
 
 - title:
     en: City Guides all over the world (commercial oriented)
@@ -285,12 +474,26 @@ resources:
   link: https://www.gaycities.com/
   tags:
     - queer
+    - gay
+    - places
+  bbox:
+    north: 90
+    west: -180
+    south: -90
+    east: 180
 
 - title:
     en: Directory of LGBTQ/SGM health professionals in America
   link: https://glmaimpak.networkats.com/members_online_new/members/dir_provider.asp
   tags:
     - queer
+    - places
+    - health
+  bbox:
+    north: 49.4
+    west: -125.0
+    south: 24.5
+    east: -66.9
 
 - title:
     de: Gay Szene Deutschland
@@ -301,6 +504,13 @@ resources:
   link: https://www.inqueery.de/guide/deutschland/szene
   tags:
     - queer
+    - gay
+    - places
+  bbox:
+    north: 55.1
+    west: 5.9
+    south: 47.3
+    east: 15.0
 
 - title:
     en: Locating Queer Memories
@@ -310,6 +520,11 @@ resources:
   tags:
     - queer
     - historical
+  bbox:
+    north: 41.5
+    west: 2.0
+    south: 41.2
+    east: 2.4
 
 
 
@@ -322,6 +537,11 @@ resources:
     - queer
     - network
     - gay
+  bbox:
+    north: 55.1
+    west: 5.9
+    south: 47.3
+    east: 15.0
 
 - title:
     en: junx.app
@@ -330,6 +550,11 @@ resources:
     - queer
     - network
     - gay
+  bbox:
+    north: 55.1
+    west: 5.9
+    south: 47.3
+    east: 15.0
 
 
 
@@ -343,13 +568,13 @@ resources:
     de: Shop für Anleitungen und Tipps rund um ein einfaches und nachhaltiges Leben.
   link: https://smarticular.shop/
   tags:
-    - off_topic
+    - other
 
 - title:
     en: Mental Health Help (MHA)
   link: https://www.mhanational.org/self-help-tools
   tags:
-    - off_topic
+    - other
     - mental_health
 
 - title:
@@ -358,12 +583,78 @@ resources:
     de: Infos zu Aspec-Treffen im deutschsprachigen Raum.
   link: https://aspec-treffen.github.io/map/
   bbox:
-    north: 55.479 # latitude
-    west: 3.647 # longitude
-    south: 45.737 # latitude
-    east: 18.062 # longitude
+    north: 55.1 # latitude
+    west: 5.9 # longitude
+    south: 47.3 # latitude
+    east: 15.0 # longitude
   tags:
     - queer
-    - map
     - places
 
+- title:
+    en: "Gay Berlin: Your guide for LGBTIQ+ in Berlin"
+  link: https://www.visitberlin.de/en/gay-berlin-lgbtq-guide-berlin
+  bbox:
+    north: 52.6
+    west: 13.1
+    south: 52.3
+    east: 13.6
+  tags:
+    - queer
+    - places
+
+- title: "Gay Berlin: 7 Insane Must-Do’s for the LGBTQ+ Community in Berlin"
+  link: https://www.travelgenz.org/gay-berlin/
+  bbox:
+    north: 52.6
+    west: 13.1
+    south: 52.3
+    east: 13.6
+  tags:
+    - queer
+    - places
+
+- title: "Queer Nightlife in Berlin: The Best LGBTQ Bars and Clubs"
+  link: https://theculturetrip.com/europe/germany/berlin/articles/queer-nightlife-in-berlin-the-best-lgbtq-bars-and-clubs/
+  bbox:
+    north: 52.6
+    west: 13.1
+    south: 52.3
+    east: 13.6
+  tags:
+    - queer
+    - places
+
+- title: Berlin's gay neighbourhoods
+  link: https://www.visitberlin.de/en/berlins-gay-neighbourhoods
+  bbox:
+    north: 52.6
+    west: 13.1
+    south: 52.3
+    east: 13.6
+  tags:
+    - queer
+    - places
+
+- title: 11 Queer Spots in Berlin
+  link: https://www.walk-this-way.net/2017/07/22/11-queer-spots-in-berlin/
+  bbox:
+    north: 52.6
+    west: 13.1
+    south: 52.3
+    east: 13.6
+  tags:
+    - queer
+    - places
+
+- title: Gay Berlin
+  link: https://www.berlin.de/en/events/gay/
+  bbox:
+    north: 52.6
+    west: 13.1
+    south: 52.3
+    east: 13.6
+  tags:
+    - queer
+    - places
+    - events

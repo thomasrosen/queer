@@ -109,6 +109,22 @@ app.get('/api/resources.json', (req, res) => {
     // })
   }
 
+  // sort resources by bbox_distance (if available)
+  // smaller distance = closer to user
+  // smaller distance = higher in list
+  resources = resources
+    .sort((a, b) => {
+      if (a.bbox_distance && b.bbox_distance) {
+        return a.bbox_distance - b.bbox_distance
+      } else if (a.bbox_distance) {
+        return -1
+      } else if (b.bbox_distance) {
+        return 1
+      } else {
+        return 0
+      }
+    })
+
   const accept_language = req.headers["accept-language"]
 
   resources = resources
