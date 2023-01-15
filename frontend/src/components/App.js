@@ -193,7 +193,11 @@ export default function App() {
 
       <p>You can filter the links via your location and some tags.</p>
 
-      <p>The website is maintained by <a href="https://thomasrosen.me/" target="_blank" rel="noreferrer">Thomas Rosen</a>.</p>
+      <p>
+        The website is maintained by <a href="https://thomasrosen.me/" target="_blank" rel="noreferrer">Thomas Rosen</a>.<br />
+        Send an email to <a href="mailto:queer@thomasrosen.me">queer@thomasrosen.me</a> if you want to add a resource.
+      </p>
+
 
       <br />
 

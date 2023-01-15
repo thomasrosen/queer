@@ -141,21 +141,25 @@ a:hover,
 a:active,
 a:focus {
   color: var(--text-color);
-  text-decoration: none;
+  text-decoration: underline;
   text-decoration-color: var(--text-color);
 }
 a:hover {
   text-decoration: underline;
+  text-decoration-style: double;
   text-decoration-color: currentColor;
 }
-/*
 h3 > a,
 h3 > a:hover,
 h3 > a:active,
 h3 > a:focus {
-  color: var(--text-color);
+  text-decoration-style: unset;
 }
-*/
+h3 > a,
+h3 > a:active,
+h3 > a:focus {
+  text-decoration: none;
+}
 
 hr {
   border: 0;
