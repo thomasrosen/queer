@@ -1,0 +1,53 @@
+# This is a workflow to deploy the react code to GitHub Pages.
+name: Deploy to Uberspace via GitHub Pages
+
+# Controls when the action will run.
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    name: Build and Deploy
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2-beta
+        with:
+          node-version: '14'
+          check-latest: true
+      - name: Install Dependencies
+        run: cd ./frontend/ && yarn
+      - name: Add gh-pages as a dev-dependency
+        run: cd ./frontend/ && yarn add --dev gh-pages
+      - name: Build ReactJS App
+        run: cd ./frontend/ && yarn build
+      - name: Deploy to GitHub Pages
+        uses: Cecilapp/GitHub-Pages-deploy@3.1.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          email: thomas.rosen@me.com
+          build_dir: ./frontend/build           # optional
+          branch: frontend_deploy               # optional
+          # cname: queer.thomasrosen.me         # optional
+          # jekyll: no                          # optional
+          # commit_message: Build the frontend! # optional
+      - name: run deploy commands on uberspace
+        uses: garygrossgarten/github-action-ssh@release
+        with:
+          command: |
+            cd ~/queer_frontend/ && git checkout frontend_deploy && git pull && cd ~/queer_api/ && git checkout main && git pull && supervisorctl restart queer;
+          host: giclas.uberspace.de
+          username: qiekub
+          password: ${{ secrets.UBERSPACE_PASSWORD_QIEKUB }}
