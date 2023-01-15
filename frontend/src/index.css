@@ -102,6 +102,10 @@ button {
 	font-weight: bold;
 	transition: box-shadow 0.2s ease;
 }
+button.small {
+  padding: 5px 10px;
+  font-size: 14px;
+}
 button[data-selected="true"] {
   box-shadow: 0 0 0 5px white;
 }
@@ -111,6 +115,9 @@ button:hover {
 	fill: var(--background-color);
 	background: var(--text-color);
 	text-decoration: none;
+}
+button.small:hover {
+  box-shadow: 0 0 0 5px var(--primary-color);
 }
 button:active,
 button:focus,
