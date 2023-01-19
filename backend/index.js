@@ -64,14 +64,12 @@ app.get('/api/resources.json', (req, res) => {
   if (tags) {
     resources = resources
     .filter((resource) => {
+      let hasAllTags = false
       if (resource.tags) {
-        for (let tag of tags) {
-          if (resource.tags.includes(tag)) { // include resource if any tag matches
-            return true
-          }
-        }
+        // check if resource.tags includes all tags
+        hasAllTags = tags.every(tag => resource.tags.includes(tag))
       }
-      return false
+      return hasAllTags
     })
   }
 
@@ -185,7 +183,7 @@ app.get('/api/tags.json', (req, res) => {
   }
 
   let tags = resources
-    .flatMap((resource) => resource.tags)
+    .flatMap((resource) => resource.original_tags)
     .filter((tag, index, self) => self.indexOf(tag) === index)
     .filter(Boolean)
     .filter(tag => tag !== 'queer') // this is obivous
