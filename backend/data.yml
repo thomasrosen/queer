@@ -29,18 +29,19 @@ resources:
     - places
 
 - title:
-    en: Queer places in Friesland-Wilhelmshaven-Wittmund, Germany
-  link: http://www.queerstroemung.de/queermap-2/
+    en: Queer places in Oldenburg, Wilhelmshaven and the area around there (Germany)
+  link: https://www.google.com/maps/d/u/0/viewer?mid=1zlXT6xH1eKda6nCreTYu7qAhIMo&ll=53.39108694600867%2C7.711015650000036&z=9
   links:
     - [google_map, https://www.google.com/maps/d/u/0/viewer?mid=1zlXT6xH1eKda6nCreTYu7qAhIMo&ll=53.39108694600867%2C7.711015650000036&z=9]
+    - [old_link, http://www.queerstroemung.de/queermap-2/]
   tags:
     - queer
     - places
   bbox:
-    north: 55.435
-    west: 5.098
-    south: 47.510
-    east: 15.798
+    north: 53.774396
+    west: 6.722508
+    south: 53.088124
+    east: 8.574246
 
 - title:
     en: Queer places in Hessen, Germany
@@ -388,10 +389,10 @@ resources:
     - queer
     - historical
   bbox:
-    north: 90
-    west: -180
-    south: -90
-    east: 180
+    north: 40.7
+    west: -83.5
+    south: 36.5
+    east: -75.4
 
 - title:
     en: Queer places in Munich, Germany
@@ -746,7 +747,7 @@ resources:
     de: Queer Lexikon
   description:
     de: |
-      \"Wir informieren über sexuelle, romantische und geschlechtliche Vielfalt. Wir sind eine Online-Anlaufstelle für lesbische, schwule, bi+sexuelle, a_sexuelle, a_romantische, trans, nicht-binäre, inter*, polyamouröse und queere Jugendliche und Kinder aus Regenbogenfamilien. Organisiert sind wir als gemeinnütziger Verein.\"
+      "\"Wir informieren über sexuelle, romantische und geschlechtliche Vielfalt. Wir sind eine Online-Anlaufstelle für lesbische, schwule, bi+sexuelle, a_sexuelle, a_romantische, trans, nicht-binäre, inter*, polyamouröse und queere Jugendliche und Kinder aus Regenbogenfamilien. Organisiert sind wir als gemeinnütziger Verein.\""
   link: https://queer-lexikon.net/
   tags:
     - queer
@@ -761,7 +762,8 @@ resources:
     east: 15.0
 
 - title: AndersARTiG
-  descripton: \"Lesben, Schwule Bisexuelle & Trans* im Land Brandenburg\"
+  description:
+    de: "\"Lesben, Schwule Bisexuelle & Trans* im Land Brandenburg\""
   link: https://andersartig.info/
   tags:
     - queer
