@@ -5,6 +5,7 @@ resources:
   link: https://www.queeringthemap.com/
   description:
     en: Is for personal experiences only.
+  area: worldwide
   bbox:
     north: 90 # latitude
     west: -180 # longitude
@@ -19,6 +20,7 @@ resources:
   link: https://wiki.openstreetmap.org/wiki/OpenQueerMap
   description:
     en: Does not exist anymore. And was only in German.
+  area: deutschland
   bbox:
     north: 55.435
     west: 5.098
@@ -29,18 +31,20 @@ resources:
     - places
 
 - title:
-    en: Queer places in Friesland-Wilhelmshaven-Wittmund, Germany
-  link: http://www.queerstroemung.de/queermap-2/
+    en: Queer places in Oldenburg, Wilhelmshaven and the area around there (Germany)
+  link: https://www.google.com/maps/d/u/0/viewer?mid=1zlXT6xH1eKda6nCreTYu7qAhIMo&ll=53.39108694600867%2C7.711015650000036&z=9
   links:
     - [google_map, https://www.google.com/maps/d/u/0/viewer?mid=1zlXT6xH1eKda6nCreTYu7qAhIMo&ll=53.39108694600867%2C7.711015650000036&z=9]
+    - [old_link, http://www.queerstroemung.de/queermap-2/]
   tags:
     - queer
     - places
+  area: oldenburg wilhelmshaven
   bbox:
-    north: 55.435
-    west: 5.098
-    south: 47.510
-    east: 15.798
+    north: 53.774396
+    west: 6.722508
+    south: 53.088124
+    east: 8.574246
 
 - title:
     en: Queer places in Hessen, Germany
@@ -50,6 +54,7 @@ resources:
   tags:
     - queer
     - places
+  area: hessen
   bbox:
     north: 50.603440945
     west: 8.9538113
@@ -62,6 +67,7 @@ resources:
   tags:
     - queer
     - places
+  area: dormund
   bbox:
     north: 51.5
     west: 6.5
@@ -75,6 +81,7 @@ resources:
     - queer
     - places
     - historical
+  area: los angeles
   bbox:
     north: 34.3373068
     west: -118.1552891
@@ -88,6 +95,7 @@ resources:
     - queer
     - places
     - historical
+  area: los angeles
   bbox:
     north: 34.3373068
     west: -118.1552891
@@ -103,6 +111,7 @@ resources:
   tags:
     - queer
     - places
+  area: edinburgh
   bbox:
     north: 55.953252
     west: -3.188267
@@ -116,6 +125,7 @@ resources:
     - queer
     - groups
     - youth
+  area: scotland
   bbox:
     north: 60.85
     west: -7.5
@@ -131,6 +141,7 @@ resources:
     - queer
     - historical
     - gay
+  area: usa
   bbox:
     north: 49.5
     west: -125
@@ -145,6 +156,7 @@ resources:
   tags:
     - queer
     - places
+  area: st lois
   bbox:
     north: 38.75
     west: -90.5
@@ -157,6 +169,7 @@ resources:
   tags:
     - queer
     - places
+  area: usa
   bbox:
     north: 49.5
     west: -125
@@ -169,6 +182,7 @@ resources:
   tags:
     - queer
     - places
+  area: worldwide
   bbox:
     north: 90
     west: -180
@@ -184,6 +198,7 @@ resources:
     - queer
     - historical
     - places
+  area: montreal
   bbox:
     north: 45.514224488
     west: -73.5853932
@@ -197,6 +212,7 @@ resources:
     - queer
     - historical
     - places
+  area: new york
   bbox:
     north: 40.9175771
     west: -74.25909
@@ -211,6 +227,7 @@ resources:
   tags:
     - queer
     - youth
+  area: usa
   bbox:
     north: 49.5
     west: -125
@@ -226,6 +243,7 @@ resources:
     - queer
     - groups
     - youth
+  area: niedersachsen
   bbox:
     north: 54.9
     west: 7.6
@@ -244,6 +262,7 @@ resources:
   tags:
     - queer
     - places
+  area: rheinlandpfalz
   bbox:
     north: 50.2
     west: 6.6
@@ -257,6 +276,7 @@ resources:
     - queer
     - groups
     - youth
+  area: baden-württemberg
   bbox:
     north: 48.2
     west: 8.5
@@ -269,6 +289,7 @@ resources:
   tags:
     - queer
     - groups
+  area: heidelberg
   bbox:
     north: 49.4
     west: 8.6
@@ -281,6 +302,7 @@ resources:
   tags:
     - queer
     - places
+  area: schweiz
   bbox:
     north: 47.8
     west: 5.9
@@ -293,6 +315,7 @@ resources:
   tags:
     - queer
     - places
+  area: stockholm
   bbox:
     north: 59.4
     west: 17.9
@@ -305,6 +328,7 @@ resources:
   tags:
     - queer
     - places
+  area: gothenburg
   bbox:
     north: 57.7
     west: 11.9
@@ -318,6 +342,7 @@ resources:
   link: https://atlasnienawisci.pl/
   tags:
     - queer
+  area: poland
   bbox:
     north: 54.9
     west: 14.1
@@ -332,6 +357,7 @@ resources:
   tags:
     - queer
     - places
+  area: philippines
   bbox:
     north: 21.1
     west: 116.1
@@ -346,6 +372,7 @@ resources:
   tags:
     - queer
     - places
+  area: philippines
   bbox:
     north: 21.1
     west: 116.1
@@ -358,6 +385,7 @@ resources:
   tags:
     - queer
     - places
+  area: philippines
   bbox:
     north: 21.1
     west: 116.1
@@ -373,6 +401,7 @@ resources:
     - queer
     - places
     - trans
+  area: worldwide
   bbox:
     north: 90
     west: -180
@@ -387,11 +416,12 @@ resources:
   tags:
     - queer
     - historical
+  area: central appalachian
   bbox:
-    north: 90
-    west: -180
-    south: -90
-    east: 180
+    north: 40.7
+    west: -83.5
+    south: 36.5
+    east: -75.4
 
 - title:
     en: Queer places in Munich, Germany
@@ -401,6 +431,7 @@ resources:
   tags:
     - queer
     - places
+  area: münchen
   bbox:
     north: 48.2
     west: 11.5
@@ -414,6 +445,7 @@ resources:
     - queer
     - network
     - places
+  area: deutschland
   bbox:
     north: 55.1
     west: 5.9
@@ -427,6 +459,7 @@ resources:
     - queer
     - groups
     - places
+  area: deutschland
   bbox:
     north: 55.1
     west: 5.9
@@ -439,6 +472,7 @@ resources:
   tags:
     - queer
     - groups
+  area: deutschland
   bbox:
     north: 55.1
     west: 5.9
@@ -450,6 +484,7 @@ resources:
   link: https://queer.vn/queer-zone/
   links:
     - [google_map, https://www.google.com/maps/d/u/0/viewer?mid=1ko63vpJ92huklAnmIW6e9bgVGsk&ll=21.01265925992041%2C105.82000659999999&z=13]
+  area: hanoi
   bbox:
     north: 21.097007588633407
     west: 105.74837568794268
@@ -479,6 +514,7 @@ resources:
     - queer
     - gay
     - places
+  area: worldwide
   bbox:
     north: 90
     west: -180
@@ -486,12 +522,13 @@ resources:
     east: 180
 
 - title:
-    en: Directory of LGBTQ/SGM health professionals in America
+    en: Directory of LGBTQ/SGM health professionals in the USA
   link: https://glmaimpak.networkats.com/members_online_new/members/dir_provider.asp
   tags:
     - queer
     - places
     - health
+  area: usa
   bbox:
     north: 49.4
     west: -125.0
@@ -505,6 +542,7 @@ resources:
     de: Deutschlandweite Karte mit Ort bei denen queere Menschen willkommen sind. Queere Orte sind nicht von nicht-queeren Orten zu unterscheiden.
     en: Germany-wide map with places where queer people are welcome. Queer places are indistinguishable from non-queer places.
   link: https://www.inqueery.de/guide/deutschland/szene
+  area: deutschland
   tags:
     - queer
     - gay
@@ -523,6 +561,7 @@ resources:
   tags:
     - queer
     - historical
+  area: barcelona
   bbox:
     north: 41.5
     west: 2.0
@@ -540,6 +579,7 @@ resources:
     - queer
     - network
     - gay
+  area: deutschland
   bbox:
     north: 55.1
     west: 5.9
@@ -553,6 +593,7 @@ resources:
     - queer
     - network
     - gay
+  area: deutschland
   bbox:
     north: 55.1
     west: 5.9
@@ -576,6 +617,7 @@ resources:
 - title:
     en: Mental Health Help (MHA)
   link: https://www.mhanational.org/self-help-tools
+  area: worldwide
   tags:
     - other
     - mental_health
@@ -590,6 +632,7 @@ resources:
     west: 5.9 # longitude
     south: 47.3 # latitude
     east: 15.0 # longitude
+  area: deutschland
   tags:
     - queer
     - places
@@ -602,6 +645,7 @@ resources:
     west: 13.1
     south: 52.3
     east: 13.6
+  area: berlin
   tags:
     - queer
     - places
@@ -613,6 +657,7 @@ resources:
     west: 13.1
     south: 52.3
     east: 13.6
+  area: berlin
   tags:
     - queer
     - places
@@ -624,6 +669,7 @@ resources:
     west: 13.1
     south: 52.3
     east: 13.6
+  area: berlin
   tags:
     - queer
     - places
@@ -635,6 +681,7 @@ resources:
     west: 13.1
     south: 52.3
     east: 13.6
+  area: berlin
   tags:
     - queer
     - places
@@ -646,6 +693,7 @@ resources:
     west: 13.1
     south: 52.3
     east: 13.6
+  area: berlin
   tags:
     - queer
     - places
@@ -657,6 +705,7 @@ resources:
     west: 13.1
     south: 52.3
     east: 13.6
+  area: berlin
   tags:
     - queer
     - places
@@ -669,6 +718,7 @@ resources:
     west: -180
     south: -90
     east: 180
+  area: worldwide
   tags:
     - queer
     - places
@@ -681,6 +731,7 @@ resources:
     west: -180
     south: -90
     east: 180
+  area: worldwide
   tags:
     - queer
     - network
@@ -695,6 +746,7 @@ resources:
     west: 5.9
     south: 47.3
     east: 15.0
+  area: deutschland
   tags:
     - queer
     - news
@@ -711,6 +763,7 @@ resources:
   tags:
     - queer
     - network
+  area: canada
   bbox:
     north: 62.548851
     west: -140.865411
@@ -723,6 +776,7 @@ resources:
   tags:
     - queer
     - news
+  area: worldwide
   bbox:
     north: 90
     west: -180
@@ -736,6 +790,7 @@ resources:
   tags:
     - queer
     - network
+  area: deutschland
   bbox:
     north: 55.1
     west: 5.9
@@ -746,7 +801,7 @@ resources:
     de: Queer Lexikon
   description:
     de: |
-      \"Wir informieren über sexuelle, romantische und geschlechtliche Vielfalt. Wir sind eine Online-Anlaufstelle für lesbische, schwule, bi+sexuelle, a_sexuelle, a_romantische, trans, nicht-binäre, inter*, polyamouröse und queere Jugendliche und Kinder aus Regenbogenfamilien. Organisiert sind wir als gemeinnütziger Verein.\"
+      "\"Wir informieren über sexuelle, romantische und geschlechtliche Vielfalt. Wir sind eine Online-Anlaufstelle für lesbische, schwule, bi+sexuelle, a_sexuelle, a_romantische, trans, nicht-binäre, inter*, polyamouröse und queere Jugendliche und Kinder aus Regenbogenfamilien. Organisiert sind wir als gemeinnütziger Verein.\""
   link: https://queer-lexikon.net/
   tags:
     - queer
@@ -754,6 +809,7 @@ resources:
     - groups
     - places
     - events
+  area: deutschland
   bbox:
     north: 55.1
     west: 5.9
@@ -761,13 +817,15 @@ resources:
     east: 15.0
 
 - title: AndersARTiG
-  descripton: \"Lesben, Schwule Bisexuelle & Trans* im Land Brandenburg\"
+  description:
+    de: "\"Lesben, Schwule Bisexuelle & Trans* im Land Brandenburg\""
   link: https://andersartig.info/
   tags:
     - queer
     - network
     - groups
     - knowledge
+  area: brandenburg
   bbox:
     north: 53.599628
     west: 10.940320

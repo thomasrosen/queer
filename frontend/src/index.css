@@ -37,12 +37,22 @@ body {
   scroll-behavior: smooth !important;
 }
 
+@media (max-width: 900px) {
+  .hide_on_small_screens {
+    display: none;
+  }
+}
+@media (min-width: 900px) {
+  .hide_on_large_screens {
+    display: none;
+  }
+}
+
 body {
   background: var(--background-color);
   color: var(--text-color);
   font-family: var(--font-family-text);
   transition: color .2s ease, background .2s ease;
-  padding-block-end: 25vh;
 }
 
 h1 {
@@ -55,7 +65,8 @@ h1 {
 h2 {
   font-family: var(--font-family-text);
   font-weight: bold;
-  font-size: 40px;
+  /* font-size: 40px; */
+  font-size: 1.5rem;
   /* margin-bottom: 40px; */
 }
 
@@ -71,7 +82,9 @@ h3+p {
 
 body,
 p,
-button {
+button,
+input,
+textarea {
   font-family: var(--font-family-text);
   font-weight: normal;
   font-size: 20px;
@@ -88,11 +101,11 @@ p {
   letter-spacing: 0.25px;
 }
 
-button {
+button,
+input[type="search"] {
   /* text-transform: uppercase; */
   border: 0;
   font-weight: bold;
-  cursor: pointer;
 
 	padding: 10px 20px;
 	border-radius: 100px;
@@ -102,12 +115,21 @@ button {
 	font-weight: bold;
 	transition: box-shadow 0.2s ease;
 }
+input[type="search"] {
+  width: 100%;
+}
+button {
+  cursor: pointer;
+}
 button.small {
   padding: 5px 10px;
   font-size: 14px;
 }
 button[data-selected="true"] {
   box-shadow: 0 0 0 5px var(--text-color);
+}
+button.small[data-selected="true"] {
+  box-shadow: 0 0 0 2px var(--text-color);
 }
 button:hover {
 	box-shadow: 0 0 0 10px var(--text-color);

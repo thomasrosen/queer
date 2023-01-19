@@ -7,6 +7,9 @@ import {
   RouterProvider,
 } from 'react-router-dom'
 
+import { Provider as ReduxProvider } from 'react-redux'
+import store from './redux/store.js'
+
 // import reportWebVitals from './reportWebVitals';
 
 // check if domain is 0.0.0.0
@@ -29,10 +32,12 @@ if (window.env === 'dev') {
 
 ReactDOM.render(
   <React.StrictMode>
-    <RouterProvider
-      router={router}
-      fallbackElement="Loading…"
-    />
+    <ReduxProvider store={store}>
+      <RouterProvider
+        router={router}
+        fallbackElement="Loading…"
+      />
+    </ReduxProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
