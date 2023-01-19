@@ -61,6 +61,16 @@ app.get('/api/resources.json', (req, res) => {
       .map((tag) => tag.trim().toLowerCase())
   }
 
+  let search_text = null
+  if (req.query.hasOwnProperty('q')) {
+    search_text = req.query.q
+    if (typeof search_text !== 'string' || search_text === '') {
+      search_text = null
+    }
+  }
+
+
+  
   if (tags) {
     resources = resources
     .filter((resource) => {
@@ -105,6 +115,30 @@ app.get('/api/resources.json', (req, res) => {
     // data.resources.sort((a, b) => {
     //   return a.distance - b.distance
     // })
+  }
+
+  if (search_text) {
+    search_text = search_text.toLowerCase()
+
+    resources = resources
+    .filter((resource) => {
+      const texts = [
+        ...Object.values(resource.title || {}),
+        ...Object.values(resource.description || {}),
+      ]
+        .map((text) => text.toLowerCase())
+
+      let found = false
+
+      for (let text of texts) {
+        if (text.includes(search_text)) {
+          found = true
+          break
+        }
+      }
+
+      return found
+    })
   }
 
   // sort resources by bbox_distance (if available)
