@@ -11,69 +11,42 @@ import {
 
 import Tag from './Tag.js'
 
-function pushReplaceSearchParams(new_searchParams) {
-  let url = new URL(window.location)
+import { useSelector, useDispatch } from 'react-redux'
+import {
+  setTags,
+  setSelectedTags,
+  toggleTag,
+  setQueryText,
+  setGeoLocation,
+  clearGeoLocation,
+  
+  selectTags,
+  selectSelectedTags,
+  selectQueryText,
+  selectGeoLocation,
+} from '../redux/slices/filterSlice.js'
+import {
+  // setResources,
+  fetchResources,
+  selectResources,
+} from '../redux/slices/resourcesSlice.js'
 
-  const new_search_params_string = new URLSearchParams(
-    [
-      ...(
-        Array.from(url.searchParams.entries())
-          .filter(([key]) => !new_searchParams.has(key))
-      ),
-      ...(
-        [...new_searchParams.entries()]
-          .filter(([, value]) => String(value).length > 0)
-      ),
-    ]
-      .sort(([key_a], [key_b]) => key_a.localeCompare(key_b)) // sort alphabetically
-  ).toString()
+function Filters({
+  onError = () => { },
+  resources = [],
+}) {
+  const dispatch = useDispatch()
 
-  url = new URL(`${url.origin}${url.pathname}${new_search_params_string.length > 0 ? '?' + new_search_params_string : ''}`)
-  window.history.pushState({}, '', url)
-}
+  const tags = useSelector(selectTags)
+  const selectedTags = useSelector(selectSelectedTags)
+  const queryText = useSelector(selectQueryText)
+  const { latitude, longitude } = useSelector(selectGeoLocation)
 
-export default function App() {
-
-  const [error, setError] = React.useState(null)
-
-  const [resources, setResources] = React.useState([])
-  const [tags, setTags] = React.useState(null)
-
-  const [latitude, setLatitude] = React.useState(null)
-  const [longitude, setLongitude] = React.useState(null)
-  const [selectedTags, setSelectedTags] = React.useState(new Set())
+  // const resources = useSelector(selectResources)
 
   const loadResources = React.useCallback(() => {
-
-    const current_url = new URL(window.location);
-    const latitude = (current_url.searchParams.get('lat') || '')
-    const longitude = (current_url.searchParams.get('lon') || '')
-    const tags = (current_url.searchParams.get('tags') || '').split(',').filter(Boolean)
-
-    const search_params_data = {}
-
-    if (
-      typeof latitude === 'string' && latitude.length > 0 &&
-      typeof longitude === 'string' && longitude.length > 0
-    ) {
-      search_params_data.lat = latitude
-      search_params_data.lon = longitude
-    }
-
-    if (Array.isArray(tags) && tags.length > 0) {
-      search_params_data.tags = tags.join(',')
-    }
-
-    const search_params = new URLSearchParams(search_params_data).toString()
-
-    const url = `${window.urls.api}resources.json${search_params.length > 0 ? '?' + search_params : ''}`;
-
-    fetch(url)
-      .then((response) => response.json())
-      .then((data) => {
-        setResources(data.resources)
-      })
-  }, [])
+    dispatch(fetchResources())
+  }, [dispatch])
 
   const loadTags = React.useCallback(() => {
 
@@ -98,95 +71,212 @@ export default function App() {
     fetch(url)
       .then((response) => response.json())
       .then((data) => {
-        setTags(data.tags)
+        dispatch(setTags(data.tags))
+        loadResources()
       })
 
-  }, [])
+  }, [dispatch, loadResources])
 
   const getLocation = React.useCallback(() => {
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition((position) => {
-        setError('')
+    
+    dispatch(setGeoLocation({
+      latitude: 48.1351253,
+      longitude: 11.5819806,
+    }))
 
-        const new_latitude = position.coords.latitude
-        const new_longitude = position.coords.longitude
-        setLatitude(new_latitude)
-        setLongitude(new_longitude)
-
-        pushReplaceSearchParams(new URLSearchParams([
-          ['lat', new_latitude],
-          ['lon', new_longitude],
-        ]))
-
-        loadTags()
-        loadResources()
-      }, (error) => {
-        setError(error.message)
-      })
-    } else {
-      setError('Geolocation is not supported by this browser.')
-    }
-  }, [loadTags, loadResources])
-
-  const clearLocation = React.useCallback(() => {
-    setLatitude(null)
-    setLongitude(null)
-    pushReplaceSearchParams(new URLSearchParams([
-      ['lat', ''],
-      ['lon', ''],
-    ]))
     loadTags()
     loadResources()
-  }, [loadTags, loadResources])
 
-  const toggleTag = React.useCallback(tag => {
+    onError('')
 
-    if (selectedTags.has(tag)) {
-      selectedTags.delete(tag)
-    } else {
-      selectedTags.add(tag)
-    }
-    setSelectedTags(new Set(selectedTags))
+    // if (navigator.geolocation) {
+    //   navigator.geolocation.getCurrentPosition((position) => {
+    //     onError('')
 
-    pushReplaceSearchParams(new URLSearchParams([
-      ['tags', [...selectedTags].filter(Boolean).join(',')],
-    ]))
+    //     dispatch(setGeoLocation({
+    //       latitude: position.coords.latitude,
+    //       longitude: position.coords.longitude,
+    //     }))
 
+    //     loadTags()
+    //   }, (error) => {
+    //     onError(error.message)
+    //   })
+    // } else {
+    //   onError('Geolocation is not supported by this browser.')
+    // }
+  }, [dispatch, onError, loadTags, loadResources])
 
+  const clearLocation = React.useCallback(() => {
+    dispatch(clearGeoLocation())
+    loadTags()
     loadResources()
-  }, [loadResources, selectedTags])
+  }, [dispatch, loadTags, loadResources])
+
+  const thisToggleTag = React.useCallback(tag => {
+    dispatch(toggleTag(tag))
+    loadResources()
+  }, [dispatch, loadResources])
+
+  const queryTextChanged = React.useCallback(event => {
+    if (event) {
+      dispatch(setQueryText(event.target.value))
+      loadResources()
+    }
+  }, [dispatch, loadResources])
 
   React.useEffect(() => {
 
-    const current_url = new URL(window.location);
-    const latitude = (current_url.searchParams.get('lat') || '')
-    setLatitude(latitude)
-    const longitude = (current_url.searchParams.get('lon') || '')
-    setLongitude(longitude)
-    const selected_tags = (current_url.searchParams.get('tags') || '').split(',')
-    setSelectedTags(new Set(selected_tags))
-
     function reload() {
-      loadTags()
+      const current_url = new URL(window.location);
+
+      const latitude = (current_url.searchParams.get('lat') || '')
+      const longitude = (current_url.searchParams.get('lon') || '')
+      dispatch(setGeoLocation({ latitude, longitude }))
+
+      const selected_tags = (current_url.searchParams.get('tags') || '').split(',')
+      dispatch(setSelectedTags(selected_tags))
+
+      const new_query_text = current_url.searchParams.get('q') || ''
+      dispatch(setQueryText(new_query_text))
+
       loadResources()
     }
     reload()
-
     window.addEventListener('popstate', reload)
 
     return () => {
       window.removeEventListener('popstate', reload)
     }
-  }, [loadTags, loadResources])
+  }, [dispatch, loadResources])
 
-  return <div className="app_wrapper">
+  React.useEffect(() => {
+    loadTags()
+  }, [loadTags, latitude, longitude])
+
+  return <div>
+    <h2>Filter for resources in your area:</h2>
+    <div className="tag_row">
+      <button onClick={getLocation}>Get my Location</button>
+      {
+        latitude && longitude
+          ? <button onClick={clearLocation}>Clear Location</button>
+          : null
+      }
+    </div>
+    {
+      latitude && longitude
+        ? <p>Your Location: {latitude} / {longitude}</p>
+        : null
+    }
+
+    <br />
+    <h2>Filter by tag:</h2>
+    <div className="tag_row">
+      {tags && tags.map(tag => {
+        return <Tag
+          key={tag}
+          tag={tag}
+          data-selected={selectedTags.includes(tag) ? 'true' : 'false'}
+          onClick={() => thisToggleTag(tag)}
+        />
+      })}
+    </div>
+
+    <br />
+    <h2>Search:</h2>
+    <input
+      style={{ margin: '20px 0' }}
+      type="search"
+      placeholder="Search…"
+      defaultValue={queryText}
+      onChange={queryTextChanged}
+      />
+
+    <br />
+    <br />
+    <h2>Result Summary:</h2>
+    <br />
+    {
+      resources.length === 0
+        ? <p>No resources found.</p>
+        : null
+    }
+    {
+      resources.length === 1
+        ? <p>One resources found.</p>
+        : null
+    }
+    {
+      resources.length > 1
+        ? <p>{resources.length} resources found.</p>
+        : null
+    }
+
+  </div>
+}
+
+export default function App() {
+
+  const dispatch = useDispatch()
+
+  const resources = useSelector(selectResources)
+  const selectedTags = useSelector(selectSelectedTags)
+
+  // React.useEffect(() => {
+  //   function loadResources() {
+  //     dispatch(fetchResources())
+  //   }
+  //   loadResources()
+  //   window.addEventListener('popstate', loadResources)
+  //
+  //   return () => {
+  //     window.removeEventListener('popstate', loadResources)
+  //   }
+  // }, [dispatch])
+
+  const thisToggleTag = React.useCallback(tag => {
+    dispatch(toggleTag(tag))
+    dispatch(fetchResources())
+  }, [dispatch])
+
+  const [showFilters, setShowFilters] = React.useState(false)
+
+  const [error, setError] = React.useState(null)
+  
+  const toggleFilters = () => {
+    setShowFilters(showFilters => !showFilters)
+  }
+
+  return <div className={`app_wrapper ${showFilters === true ? 'show_filters' : 'hide_filters'}`}>
     <header>
+
+      {
+        showFilters === true
+          ? <button
+            className="hide_on_large_screens"
+            onClick={toggleFilters}
+          >
+            Close Filters
+          </button>
+          : null
+      }
+
       <h1>🏳️‍🌈 QR</h1>
+      
       <a href="https://github.com/thomasrosen/queer" target="_blank" rel="noreferrer">Sourcecode</a>
     </header>
+
+    <nav>
+      <Filters
+        onError={setError}
+        resources={resources}
+        />
+    </nav>
     
     <main>
       <h1>🏳️‍🌈 Queer Resources</h1>
+
       <br />
 
       <p>A collection of resources for queer people. You're of course also welcome to look through the information if you are an ally.</p>
@@ -198,40 +288,20 @@ export default function App() {
         Send an email to <a href="mailto:queer@thomasrosen.me">queer@thomasrosen.me</a> if you want to add a resource.
       </p>
 
+      <div className="hide_on_large_screens">
+        <br />
+        <button
+          onClick={toggleFilters}
+        >
+          {showFilters === true ? 'Close Filters' : 'Open Filters'}
+        </button>
+        <br />
+      </div>
 
+      <br />
       <br />
 
       {error && <p>Error: {error}</p>}
-
-      <div className="tag_row">
-        <button onClick={getLocation}>Filter for resources near you</button>
-        {
-          latitude && longitude
-          ? <button onClick={clearLocation}>Clear Location</button>
-          : null
-        }
-      </div>
-      {
-        latitude && longitude
-          ? <p>Location: {latitude} / {longitude}</p>
-          : null
-      }
-
-      <br />
-
-      <div className="tag_row">
-        { tags && tags.map(tag => {
-          return <Tag
-            key={tag}
-            tag={tag}
-            data-selected={selectedTags.has(tag) ? 'true' : 'false'}
-            onClick={() => toggleTag(tag)}
-          />
-        }) }
-      </div>
-
-      <br />
-      <br />
 
       {
         resources &&
@@ -254,8 +324,8 @@ export default function App() {
                     className="small"
                     key={tag}
                     tag={tag}
-                    // data-selected={selectedTags.has(tag) ? 'true' : 'false'}
-                    onClick={() => toggleTag(tag)}
+                    data-selected={selectedTags.includes(tag) ? 'true' : 'false'}
+                    onClick={() => thisToggleTag(tag)}
                   />
                 })
               }

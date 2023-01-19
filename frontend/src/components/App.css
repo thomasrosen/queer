@@ -2,8 +2,13 @@
   min-height: 100vh;
   height: auto;
 
+  --header-height: 64px;
+  --sidebar-width: 400px;
+
   background-color: var(--background-color);
   color: var(--text-color);
+
+  padding-top: var(--header-height);
 }
 
 header {
@@ -12,7 +17,7 @@ header {
   top: 0;
   right: 0;
   left: 0;
-  height: 64px;
+  height: var(--header-height);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,21 +30,65 @@ header h1 {
   font-size: 40px;
 }
 
+nav {
+  position: absolute;
+  top: 64px;
+  left: 0;
+  width: var(--sidebar-width);
+  padding: 32px;
+  padding-block-end: 25vh;
+
+  box-shadow: inset -1px 0 0 0 var(--text-color);
+}
+
 main {
   position: absolute;
   top: 64px;
+  right: 0;
+  left: var(--sidebar-width);
   padding: 32px;
-  width: 800px;
+  padding-block-end: 25vh;
+  box-shadow: -1px 0 0 0 var(--text-color);
+}
+
+main p {
+  width: 500px;
   max-width: 100%;
-  margin: 0 auto;
-  left: 50%;
-  transform: translateX(-50%);
+}
+
+/* hide sidebar on small screens */
+@media (max-width: 900px) {
+  nav {
+    display: none;
+    z-index: 9;
+    position: fixed;
+    top: var(--header-height);
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 32px;
+    padding-block-end: 25vh;
+    box-shadow: none;
+    background-color: var(--background-color);
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .app_wrapper.show_filters nav {
+    display: block;
+  }
+  .app_wrapper.show_filters {
+    overflow: hidden;
+  }
+  main {
+    left: 0;
+    box-shadow: none;
+  }
 }
 
 .tag_row {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 15px;
   margin: 20px 0;
 }
 .tag_row.small {
@@ -48,4 +97,4 @@ main {
 }
 .tag_row button {
   filter: saturate(2);
-} 
+}
