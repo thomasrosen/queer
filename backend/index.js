@@ -61,17 +61,25 @@ app.get('/api/resources.json', (req, res) => {
       .map((tag) => tag.trim().toLowerCase())
   }
 
+  let search_text = null
+  if (req.query.hasOwnProperty('q')) {
+    search_text = req.query.q
+    if (typeof search_text !== 'string' || search_text === '') {
+      search_text = null
+    }
+  }
+
+
+  
   if (tags) {
     resources = resources
     .filter((resource) => {
+      let hasAllTags = false
       if (resource.tags) {
-        for (let tag of tags) {
-          if (resource.tags.includes(tag)) { // include resource if any tag matches
-            return true
-          }
-        }
+        // check if resource.tags includes all tags
+        hasAllTags = tags.every(tag => resource.tags.includes(tag))
       }
-      return false
+      return hasAllTags
     })
   }
 
@@ -107,6 +115,30 @@ app.get('/api/resources.json', (req, res) => {
     // data.resources.sort((a, b) => {
     //   return a.distance - b.distance
     // })
+  }
+
+  if (search_text) {
+    search_text = search_text.toLowerCase()
+
+    resources = resources
+    .filter((resource) => {
+      const texts = [
+        ...Object.values(resource.title || {}),
+        ...Object.values(resource.description || {}),
+      ]
+        .map((text) => text.toLowerCase())
+
+      let found = false
+
+      for (let text of texts) {
+        if (text.includes(search_text)) {
+          found = true
+          break
+        }
+      }
+
+      return found
+    })
   }
 
   // sort resources by bbox_distance (if available)
@@ -185,7 +217,7 @@ app.get('/api/tags.json', (req, res) => {
   }
 
   let tags = resources
-    .flatMap((resource) => resource.tags)
+    .flatMap((resource) => resource.original_tags)
     .filter((tag, index, self) => self.indexOf(tag) === index)
     .filter(Boolean)
     .filter(tag => tag !== 'queer') // this is obivous

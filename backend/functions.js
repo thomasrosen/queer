@@ -19,6 +19,16 @@ function loadData () {
         .map(resource => {
           // remove queer-tag
           resource.tags = (resource.tags || []).filter((tag) => tag !== 'queer') // remove queer-tag
+          resource.original_tags = resource.tags
+
+          if (!resource.area) {
+            resource.area = 'other'
+          } else {
+            resource.tags = [
+              resource.area,
+              ...resource.original_tags,
+            ]
+          }
           
           // get distance between bbox corners to sort by it
           resource.bbox_distance = 0
