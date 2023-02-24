@@ -40,7 +40,9 @@ function loadData () {
               west: parseFloat(resource.bbox.west),
             }
             resource.bbox_distance = bboxDistance(bbox.north, bbox.west, bbox.south, bbox.east)
+            resource.bbox_center = get_geo_bbox_center(bbox)
           }
+          resource.sort_distance = resource.bbox_distance
 
           return resource
         })
@@ -114,8 +116,17 @@ function bboxDistance(lat1, lon1, lat2, lon2) {
   return d
 }
 
+function get_geo_bbox_center(bbox) {
+  return {
+    lat: bbox.north + (bbox.south - bbox.north) / 2,
+    lon: bbox.east + (bbox.west - bbox.east) / 2,
+  }
+}
+
 module.exports = {
   loadData,
   checkOrigin,
   translateObject,
+  bboxDistance,
+  get_geo_bbox_center,
 };

@@ -72,32 +72,33 @@ export default function Filters({
 
   const getLocation = React.useCallback(() => {
 
-    dispatch(setGeoLocation({
-      latitude: 48.1351253,
-      longitude: 11.5819806,
-    }))
+    // dispatch(setGeoLocation({
+    //   latitude: 48.1351253,
+    //   longitude: 11.5819806,
+    // }))
 
-    loadTags()
-    loadResources()
+    // loadTags()
+    // loadResources()
 
-    onError('')
+    // onError('')
 
-    // if (navigator.geolocation) {
-    //   navigator.geolocation.getCurrentPosition((position) => {
-    //     onError('')
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition((position) => {
+        onError('')
 
-    //     dispatch(setGeoLocation({
-    //       latitude: position.coords.latitude,
-    //       longitude: position.coords.longitude,
-    //     }))
+        dispatch(setGeoLocation({
+          latitude: position.coords.latitude,
+          longitude: position.coords.longitude,
+        }))
 
-    //     loadTags()
-    //   }, (error) => {
-    //     onError(error.message)
-    //   })
-    // } else {
-    //   onError('Geolocation is not supported by this browser.')
-    // }
+        loadTags()
+        loadResources()
+      }, (error) => {
+        onError(error.message)
+      })
+    } else {
+      onError('Geolocation is not supported by this browser.')
+    }
   }, [dispatch, onError, loadTags, loadResources])
 
   const clearLocation = React.useCallback(() => {
