@@ -8,6 +8,7 @@ const {
   loadData,
   checkOrigin,
   translateObject,
+  bboxDistance,
 } = require('./functions.js')
 
 const app = express()
@@ -85,34 +86,36 @@ app.get('/api/resources.json', (req, res) => {
 
   if (lat && lon) {
     resources = resources
-    .filter((resource) => {
-      // check if lat/lon is in resource.bbox
-      if (resource.bbox) {
-        if (
-          lat <= resource.bbox.north &&
-          lat >= resource.bbox.south &&
-          lon <= resource.bbox.east &&
-          lon >= resource.bbox.west
-        ) {
-          return true
-        }
-      }
+    // .filter((resource) => {
+    //   // check if lat/lon is in resource.bbox
+    //   if (resource.bbox) {
+    //     if (
+    //       lat <= resource.bbox.north &&
+    //       lat >= resource.bbox.south &&
+    //       lon <= resource.bbox.east &&
+    //       lon >= resource.bbox.west
+    //     ) {
+    //       return true
+    //     }
+    //   }
 
-      return false
-    })
-    // .map((resource) => {
-
-
-    //   // const distance = Math.sqrt(
-    //   //   Math.pow(resource.lat - lat, 2) +
-    //   //   Math.pow(resource.lon - lon, 2)
-    //   // )
-    //   // return {
-    //   //   ...resource,
-    //   //   distance,
-    //   // }
+    //   return false
     // })
-    // data.resources.sort((a, b) => {
+    .map((resource) => {
+      const {
+        lat: center_lat,
+        lon: center_lon,
+      } = resource.bbox_center
+
+      let distance = bboxDistance(center_lat, center_lon, lat, lon)
+      distance += resource.bbox_distance
+
+      return {
+        ...resource,
+        sort_distance: distance,
+      }
+    })
+    // .sort((a, b) => {
     //   return a.distance - b.distance
     // })
   }
@@ -141,16 +144,15 @@ app.get('/api/resources.json', (req, res) => {
     })
   }
 
-  // sort resources by bbox_distance (if available)
-  // smaller distance = closer to user
-  // smaller distance = higher in list
+  // sort resources by sort_distance (if available)
+  // smaller distance => closer to user => higher in list
   resources = resources
     .sort((a, b) => {
-      if (a.bbox_distance && b.bbox_distance) {
-        return a.bbox_distance - b.bbox_distance
-      } else if (a.bbox_distance) {
+      if (a.sort_distance && b.sort_distance) {
+        return a.sort_distance - b.sort_distance
+      } else if (a.sort_distance) {
         return -1
-      } else if (b.bbox_distance) {
+      } else if (b.sort_distance) {
         return 1
       } else {
         return 0
