@@ -253,9 +253,26 @@ resources:
     south: 49.3
     east: 8.1
 
+- title: LSBTTIQ Netzwerk Baden-Württemberg
+  description: |
+    "Das Netzwerk von lesbischen, schwulen, bisexuellen, transsexuellen, transgender, intersexuellen und queeren Menschen in Baden-Württemberg"
+  link: https://www.netzwerk-lsbttiq.net/
+  tags:
+    - queer
+    - knowledge
+  area: baden-württemberg
+  bbox:
+    north: 48.2
+    west: 8.5
+    south: 47.3
+    east: 9.2
+
 - title:
-    en: LSBTTIQ youthgroups in Baden-Württemberg, Germany
-  link: https://www.netzwerk-lsbttiq.net/index.php/jugend/jugendgruppen
+    de: Queer Future Baden-Württemberg
+  description: |
+    "Queer Future Baden-Württemberg ist der Landesverband der queeren Jugendgruppen in Baden-Württemberg und als Jugendverband Teil des Netzwerk LSBTTIQ Baden-Württemberg.
+    Bei uns gibt es sowohl Informationen, wo du in Baden-Württemberg queere Jugendgruppen, Coming-Out Gruppen oder Beratungsstellen findest, als auch Möglichkeiten dich aktiv im Landesverband mit einzubringen"
+  link: https://queer-future-bw.de/
   tags:
     - queer
     - groups
