@@ -110,7 +110,7 @@ app.get('/api/resources.json', (req, res) => {
       } = resource.bbox_center
 
       let distance = bboxDistance(center_lat, center_lon, lat, lon)
-      distance += resource.bbox_distance
+      distance += resource.bbox_distance * 0.5
 
       return {
         ...resource,
