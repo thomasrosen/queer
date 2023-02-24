@@ -92,10 +92,10 @@ app.get('/api/resources.json', (req, res) => {
 
       if (resource.bbox) {
         if (
-          lat <= resource.bbox.north + (resource.bbox.north - resource.bbox.south) &&
-          lat >= resource.bbox.south - (resource.bbox.north + resource.bbox.south) &&
-          lon <= resource.bbox.east + (resource.bbox.east - resource.bbox.west) &&
-          lon >= resource.bbox.west - (resource.bbox.east + resource.bbox.west)
+          lat <= resource.bbox.north + ((resource.bbox.north - resource.bbox.south) * 0.5) &&
+          lat >= resource.bbox.south - ((resource.bbox.north + resource.bbox.south) * 0.5) &&
+          lon <= resource.bbox.east + ((resource.bbox.east - resource.bbox.west) * 0.5) &&
+          lon >= resource.bbox.west - ((resource.bbox.east + resource.bbox.west) * 0.5)
         ) {
           return true
         }
