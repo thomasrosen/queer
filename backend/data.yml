@@ -4,7 +4,7 @@ resources:
     en: Queering the Map
   link: https://www.queeringthemap.com/
   description:
-    en: Is for personal experiences only.
+    en: A map of personal queer experiences all over the world. You can add your own.
   area: worldwide
   bbox:
     north: 90 # latitude
