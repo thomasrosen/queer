@@ -864,3 +864,50 @@ resources:
     west: 2.5
     south: 49.5
     east: 6.5
+
+- title: Ottawa Trans Library
+  description: |-
+    The Ottawa Trans Library houses a collection of books by trans authors, as well as historical, important and interesting works on trans issues and people.
+    We are a social space in addition to being a library. You don’t need to borrow a book. Oppressed people have always needed spaces where they can be safe, gather, meet new people and talk. We have reading stations and tables for studying or socializing. Come enjoy a free coffee, browse the collection, or just swing by to say hello!
+  link: https://ottawatranslibrary.ca/
+  tags:
+    - queer
+    - trans
+    - places
+    - events
+  area: Ottawa
+  bbox:
+    north: 45.5
+    west: -75.7
+    south: 45.3
+    east: -75.3
+
+- title: England and Wales Census 2021 – Gender Identity
+  description: Census data about gender identity in England and Wales.
+  link: https://www.ons.gov.uk/census/maps/choropleth/identity/gender-identity/gender-identity-4a/gender-identity-different-from-sex-registered-at-birth
+  tags:
+    - queer
+    - trans
+    - knowledge
+  area: england and wales
+  bbox:
+    north: 60.8
+    west: -7.6
+    south: 49.9
+    east: 1.8
+
+- title: England and Wales Census 2021 – Sexual Orientation
+  description: Census data about sexual orientation in England and Wales.
+  link: https://www.ons.gov.uk/census/maps/choropleth/identity/sexual-orientation/sexual-orientation-4a/lesbian-gay-bisexual-or-other-lgb
+  tags:
+    - queer
+    - gay
+    - knowledge
+  area: england and wales
+  bbox:
+    north: 60.8
+    west: -7.6
+    south: 49.9
+    east: 1.8
+
+
