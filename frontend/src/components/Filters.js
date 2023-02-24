@@ -149,7 +149,7 @@ export default function Filters({
   }, [loadTags, latitude, longitude])
 
   return <div>
-    <h2>Filter for resources in your area:</h2>
+    <h2>Filter for resources in near you:</h2>
     <div className="tag_row">
       <button onClick={getLocation}>Get my Location</button>
       {
