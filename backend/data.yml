@@ -275,10 +275,10 @@ resources:
     - groups
   area: heidelberg
   bbox:
-    north: 49.4
+    north: 49.5
     west: 8.6
-    south: 49.4
-    east: 8.6
+    south: 49.3
+    east: 8.8
 
 - title:
     en: Five places in Sitzerland
