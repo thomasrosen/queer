@@ -190,22 +190,6 @@ resources:
     east: 180
 
 - title:
-    en: Historic queer places in Montreal
-  link: https://storymaps.arcgis.com/stories/fa26398f934c4f7484f8eedc2dac3b03
-  links:
-    - [google_map, https://www.google.com/maps/d/u/0/embed?mid=1SS77K0liNuThK_kfkQ5408nZ_UuG5XXF&ll=45.51422448809261%2C-73.5853932&z=14]
-  tags:
-    - queer
-    - historical
-    - places
-  area: montreal
-  bbox:
-    north: 45.514224488
-    west: -73.5853932
-    south: 45.514224488
-    east: -73.5853932
-
-- title:
     en: History queer places in New York
   link: https://www.nyclgbtsites.org/
   tags:
@@ -269,9 +253,26 @@ resources:
     south: 49.3
     east: 8.1
 
+- title: LSBTTIQ Netzwerk Baden-Württemberg
+  description: |
+    "Das Netzwerk von lesbischen, schwulen, bisexuellen, transsexuellen, transgender, intersexuellen und queeren Menschen in Baden-Württemberg"
+  link: https://www.netzwerk-lsbttiq.net/
+  tags:
+    - queer
+    - knowledge
+  area: baden-württemberg
+  bbox:
+    north: 48.2
+    west: 8.5
+    south: 47.3
+    east: 9.2
+
 - title:
-    en: LSBTTIQ youthgroups in Baden-Württemberg, Germany
-  link: https://www.netzwerk-lsbttiq.net/index.php/jugend/jugendgruppen
+    de: Queer Future Baden-Württemberg
+  description: |
+    "Queer Future Baden-Württemberg ist der Landesverband der queeren Jugendgruppen in Baden-Württemberg und als Jugendverband Teil des Netzwerk LSBTTIQ Baden-Württemberg.
+    Bei uns gibt es sowohl Informationen, wo du in Baden-Württemberg queere Jugendgruppen, Coming-Out Gruppen oder Beratungsstellen findest, als auch Möglichkeiten dich aktiv im Landesverband mit einzubringen"
+  link: https://queer-future-bw.de/
   tags:
     - queer
     - groups
@@ -285,16 +286,17 @@ resources:
 
 - title:
     en: Queer groups in Heidelberg, Germany
+    de: Queere Gruppen in Heidelberg
   link: http://www.queeres-netzwerk-hd.de/lesbisch-schwul-transsexuell-heidelberg/gruppen-im-queeren-netzwerk/
   tags:
     - queer
     - groups
   area: heidelberg
   bbox:
-    north: 49.4
+    north: 49.5
     west: 8.6
-    south: 49.4
-    east: 8.6
+    south: 49.3
+    east: 8.8
 
 - title:
     en: Five places in Sitzerland
