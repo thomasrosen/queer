@@ -712,6 +712,7 @@ resources:
     - events
 
 - title: travelgay
+  description: Commercial travel information website for queer people.
   link: https://www.travelgay.com/
   bbox:
     north: 90
@@ -725,6 +726,7 @@ resources:
     - events
 
 - title: Flokkr
+  description: Commercial travel information website for queer people.
   link: https://flokkr.com/
   bbox:
     north: 90
