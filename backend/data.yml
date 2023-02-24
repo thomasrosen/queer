@@ -638,7 +638,7 @@ resources:
     - places
 
 - title:
-    en: "Gay Berlin: Your guide for LGBTIQ+ in Berlin"
+    en: "\"Gay Berlin: Your guide for LGBTIQ+ in Berlin\""
   link: https://www.visitberlin.de/en/gay-berlin-lgbtq-guide-berlin
   bbox:
     north: 52.6
