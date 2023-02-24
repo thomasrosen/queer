@@ -831,3 +831,36 @@ resources:
     west: 10.940320
     south: 51.386357
     east: 14.920935
+
+- title: Transgender Infopunt
+  description:
+    nl: "\"dé plek voor al je vragen over het transgenderthema\""
+    el: Infos about being trans* in dutch. The map contains health related places .
+  link: https://www.transgenderinfo.be/
+  tags:
+    - queer
+    - trans
+    - knowledge
+    - places
+  area: belgium
+  bbox:
+    north: 51.5
+    west: 2.5
+    south: 49.5
+    east: 6.5
+
+- title: Gender Vonk
+  description:
+    nl: "\"ALS HET EVEN KNETTERT GENDER VONK IN JE HOOFD\""
+    el: Infos about coming out as trans* and help for parents and allies. Everything explanation has a video. The website is in dutch.
+  link: https://gendervonk.be/
+  tags:
+    - queer
+    - trans
+    - knowledge
+  area: belgium
+  bbox:
+    north: 51.5
+    west: 2.5
+    south: 49.5
+    east: 6.5
