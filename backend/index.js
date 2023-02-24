@@ -86,21 +86,23 @@ app.get('/api/resources.json', (req, res) => {
 
   if (lat && lon) {
     resources = resources
-    // .filter((resource) => {
-    //   // check if lat/lon is in resource.bbox
-    //   if (resource.bbox) {
-    //     if (
-    //       lat <= resource.bbox.north &&
-    //       lat >= resource.bbox.south &&
-    //       lon <= resource.bbox.east &&
-    //       lon >= resource.bbox.west
-    //     ) {
-    //       return true
-    //     }
-    //   }
+    .filter((resource) => {
+      // check if lat/lon is in resource.bbox
+      // plus add an also accepted margin of the size of the bbox
 
-    //   return false
-    // })
+      if (resource.bbox) {
+        if (
+          lat <= resource.bbox.north + (resource.bbox.north - resource.bbox.south) &&
+          lat >= resource.bbox.south - (resource.bbox.north + resource.bbox.south) &&
+          lon <= resource.bbox.east + (resource.bbox.east - resource.bbox.west) &&
+          lon >= resource.bbox.west - (resource.bbox.east + resource.bbox.west)
+        ) {
+          return true
+        }
+      }
+
+      return false
+    })
     .map((resource) => {
       const {
         lat: center_lat,
