@@ -864,3 +864,21 @@ resources:
     west: 2.5
     south: 49.5
     east: 6.5
+
+- title: Ottawa Trans Library
+  description: |-
+    The Ottawa Trans Library houses a collection of books by trans authors, as well as historical, important and interesting works on trans issues and people.
+    We are a social space in addition to being a library. You don’t need to borrow a book. Oppressed people have always needed spaces where they can be safe, gather, meet new people and talk. We have reading stations and tables for studying or socializing. Come enjoy a free coffee, browse the collection, or just swing by to say hello!
+  link: https://ottawatranslibrary.ca/
+  tags:
+    - queer
+    - trans
+    - places
+    - events
+  area: Ottawa
+  bbox:
+    north: 45.5
+    west: -75.7
+    south: 45.3
+    east: -75.3
+
