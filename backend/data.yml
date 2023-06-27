@@ -915,3 +915,1234 @@ resources:
     east: 1.8
 
 
+
+
+
+
+
+
+- title: Pro LGBT Albania
+  description: |-
+   "An LGBT organization operating in Albania since 2012. Our group was started as a need to strengthen the voice of LGBT experience in journalism and human rights fields. We also see the need to dedicate our work to lesbians, bisexual and transgender women. Our mission is to strengthen the voice of young Albanian LBT women through online media but also other marginalized groups."
+  link: https://prolgbtalbania.org/
+  tags:
+    - queer
+  area: Albania
+  bbox:
+    north: 19.226074
+    west: 39.588757
+    south: 21.093750
+    east: 42.674359
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Open hand spectrum Albania (OMSA)
+  description: ""
+  link: https://omsalbania.org/
+  tags:
+    - queer
+    - political
+  area: Albania
+  bbox:
+    north: 19.226074
+    west: 39.588757
+    south: 21.093750
+    east: 42.674359
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Streha Center
+  description: |-
+    "Streha is a concrete service which answers immediately and professionally to emergent needs of LGBTI youth community. Our services include safe housing, accommodation, individual development plans, psycho-social support, group therapy, performing basic skills, career counseling, referrals to specialized services, negotiation for employment, negotiation with families, medical/legal assistance."
+  link: https://strehacenter.org/
+  tags:
+    - queer
+  area: Albania
+  bbox:
+    north: 19.226074
+    west: 39.588757
+    south: 21.093750
+    east: 42.674359
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Homosexuelle Initiative (HOSI)
+  description: Eine Liste von lesbisch/schwulen Organisationen in Österreich.
+  link: https://www.hosilinz.at/hosi/
+  tags:
+    - queer
+    - lesbian
+    - gay
+  area: Österreich
+  bbox:
+    north: 19.226074
+    west: 39.588757
+    south: 21.093750
+    east: 42.674359
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Homosexuelle Initiative (HOSI)
+  description: Eine Liste von lesbisch/schwulen Organisationen in Österreich.
+  link: https://www.hosilinz.at/hosi/
+  tags:
+    - queer
+    - lesbian
+    - gay
+  area: Österreich
+  bbox:
+    north: 9.533386
+    west: 46.384833
+    south: 17.160645
+    east: 49.045070
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+  more:
+    Oberösterreich / Homosexuelle Initiative Linz: https://hosilinz.at/
+    Salzburg / Homosexuelle Initiative Salzburg: https://www.hosi.or.at/
+    Steiermark / Rosa Lila PantherInnen: https://www.homo.at/
+    Tirol / Homosexuelle Initiative Tirol: https://www.hositirol.at/
+    Vorarlberg / Go West: https://gowest.jimdo.com/
+    Wien / Homosexuelle Initiative Wien: https://www.hosiwien.at/
+    Wien / Türkis Rosa Lila Villa: https://dievilla.at/
+    Wien / Wiener Antidiskriminierungsstelle: https://www.wien.gv.at/kontakte/wast/
+    Wien / Austrian Gay Professionals: https://agpro.at/
+    Wien / Courage – Familien-, PartnerInnen- und Sexualberatung: https://www.courage-beratung.at/
+    Wien / GayCopsAustria: https://www.gaycopsaustria.at/new/
+    Wien / Queer Business Women: https://qbw.at/
+    Wien / Rechtskomitee Lambda (RKL): https://rklambda.at/
+
+- title: SoHo Austria
+  link: https://www.soho.or.at/
+  area: Österreich
+  bbox:
+    north: 9.533386
+    west: 46.384833
+    south: 17.160645
+    east: 49.045070
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Trans-Austria
+  link: https://trans-austria.org/
+  area: Österreich
+  bbox:
+    north: 9.533386
+    west: 46.384833
+    south: 17.160645
+    east: 49.045070
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: 
+  link: 
+  area: 
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Rainbow House
+  link: http://rainbowhouse.be/
+  area: Belgium
+  bbox:
+    north: 51.505346
+    west: 2.546997
+    south: 49.496674
+    east: 6.408691
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Genres Pluriels (trans et intersexe)
+  link: https://www.genrespluriels.be/
+  area: Belgium
+  bbox:
+    north: 51.505346
+    west: 2.546997
+    south: 49.496674
+    east: 6.408691
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Transgender Infopunt (Flandre)
+  link: http://transgenderinfo.be/
+  area: Belgium
+  bbox:
+    north: 51.505346
+    west: 2.546997
+    south: 49.496674
+    east: 6.408691
+  tags:
+    - trans
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Single Step
+  link: https://singlestep.bg/
+  area: Bulgaria
+  bbox:
+    north: 44.214766
+    west: 22.357178
+    south: 41.235080
+    east: 28.607178
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Rainbow Hub
+  link: https://www.facebook.com/RainbowHubBG/?ref=page_internal
+  area: Bulgaria
+  bbox:
+    north: 44.214766
+    west: 22.357178
+    south: 41.235080
+    east: 28.607178
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Фондация Билитис
+  link: https://bilitis.org/
+  area: Bulgaria
+  bbox:
+    north: 44.214766
+    west: 22.357178
+    south: 41.235080
+    east: 28.607178
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Фондация Глас
+  link: https://glasfoundation.bg/
+  area: Bulgaria
+  bbox:
+    north: 44.214766
+    west: 22.357178
+    south: 41.235080
+    east: 28.607178
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Младежка ЛГБТ организация "Действие"(LGBT Deystvie)
+  link: http://www.deystvie.org/
+  area: Bulgaria
+  bbox:
+    north: 44.214766
+    west: 22.357178
+    south: 41.235080
+    east: 28.607178
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Dugine Obitelji
+  link: https://www.dugineobitelji.com/
+  area: Croatia
+  bbox:
+    north: 46.554650
+    west: 13.375244
+    south: 42.479992
+    east: 19.162598
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Domine
+  link: http://www.domine.hr/
+  area: Croatia
+  bbox:
+    north: 46.554650
+    west: 13.375244
+    south: 42.479992
+    east: 19.162598
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: TransAid
+  link: http://transaid.hr/
+  area: Croatia
+  bbox:
+    north: 46.554650
+    west: 13.375244
+    south: 42.479992
+    east: 19.162598
+  tags:
+    - trans
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Accept Cyprus
+  link: http://www.acceptcy.org/
+  area: Cyprus
+  bbox:
+    north: 35.173808
+    west: 32.273254
+    south: 34.563515
+    east: 34.597168
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Prague pride (podpora a poradenství)
+  link: https://www.praguepride.cz/en/lgbt-counselling
+  area: Czech Republic
+  bbox:
+    north: 51.055207
+    west: 12.090454
+    south: 48.537673
+    east: 18.813477
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Trans*parent
+  link: https://jsmetransparent.cz/
+  area: Czech Republic
+  bbox:
+    north: 51.055207
+    west: 12.090454
+    south: 48.537673
+    east: 18.813477
+  tags:
+    - trans
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Ara Art
+  link: https://www.araart.cz/
+  area: Czech Republic
+  bbox:
+    north: 51.055207
+    west: 12.090454
+    south: 48.537673
+    east: 18.813477
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Om LGBT Danmark
+  link: https://lgbt.dk/
+  area: Denmark
+  bbox:
+    north: 57.748928
+    west: 7.031250
+    south: 54.977613
+    east: 15.468750
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Kvindeínformationscaféen Sappho
+  link: http://www.sapphoaarhus.dk/
+  area: Denmark
+  bbox:
+    north: 57.748928
+    west: 7.031250
+    south: 54.977613
+    east: 15.468750
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Eesti LGBT Ühing
+  link: https://www.lgbt.ee/
+  area: Estonia
+  bbox:
+    north: 59.633621
+    west: 21.357422
+    south: 57.326521
+    east: 28.564453
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Sukupuolen moninaisuuden osaamiskeskus
+  link: https://sukupuolenosaamiskeskus.fi/
+  area: Finland
+  bbox:
+    north: 70.092390
+    west: 19.511719
+    south: 59.977005
+    east: 31.376953
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Sinuiksi (Auttava puhelin)
+  link: https://www.sinuiksi.fi/
+  area: Finland
+  bbox:
+    north: 70.092390
+    west: 19.511719
+    south: 59.977005
+    east: 31.376953
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Perhesuhdekeskus
+  link: https://perhesuhdekeskus.fi/
+  area: Finland
+  bbox:
+    north: 70.092390
+    west: 19.511719
+    south: 59.977005
+    east: 31.376953
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: SETA
+  link: https://seta.fi/palvelut/tuki-ja-neuvontapalvelut/
+  area: Finland
+  bbox:
+    north: 70.092390
+    west: 19.511719
+    south: 59.977005
+    east: 31.376953
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: SOS homophobie
+  link: http://www.sos-homophobie.org/
+  area: France
+  bbox:
+    north: 51.124213
+    west: -5.625000
+    south: 41.771312
+    east: 9.843750
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Ligne Azur
+  link: https://www.ligneazur.org/
+  area: France
+  bbox:
+    north: 51.124213
+    west: -5.625000
+    south: 41.771312
+    east: 9.843750
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: MAG Jeunes LGBT
+  link: http://www.mag-jeunes.com/
+  area: France
+  bbox:
+    north: 51.124213
+    west: -5.625000
+    south: 41.771312
+    east: 9.843750
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Assiciation Des Familles Homoparentales
+  link: https://adfh.net/
+  area: France
+  bbox:
+    north: 51.124213
+    west: -5.625000
+    south: 41.771312
+    east: 9.843750
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: AcceptessT
+  link: https://www.acceptess-t.com/
+  area: France
+  bbox:
+    north: 51.124213
+    west: -5.625000
+    south: 41.771312
+    east: 9.843750
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Bundesvereinigung Trans* e.V.
+  link: http://www.bv-trans.de/
+  area: Germany
+  bbox:
+    north: 55.776573
+    west: 5.625000
+    south: 47.989921
+    east: 15.468750
+  tags:
+    - trans
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Schwulenberatung Berlin / LSBTI*-Geflüchtete
+  link: https://schwulenberatungberlin.de/
+  area: Germany
+  bbox:
+    north: 55.776573
+    west: 5.625000
+    south: 47.989921
+    east: 15.468750
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Rat&Tat-Zentrum für queeres Leben Bremen
+  link: http://www.ratundtat-bremen.de/
+  area: Bremen, Germany
+  bbox:
+    north: 53.333061
+    west: 7.031250
+    south: 52.268157
+    east: 9.843750
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Fliederlich e.V. SchwuLesbisches Zentrum Nürnberg
+  link: https://www.fliederlich.de/
+  area: Nürnberg, Germany
+  bbox:
+    north: 50.064192
+    west: 10.195312
+    south: 48.922499
+    east: 12.656250
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Magnus-Hirschfeld-Centrum e.V.
+  link: https://www.mhc-hh.de/
+  area: Germany
+  bbox:
+    north: 55.776573
+    west: 5.625000
+    south: 47.989921
+    east: 15.468750
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: "Γραμμή ψυχολογικής στήριξης: 11528"
+  link: http://www.11528.gr/
+  area: Greece
+  bbox:
+    north: 41.748819
+    west: 19.511719
+    south: 34.016242
+    east: 31.376953
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Colour Youth
+  link: https://www.colouryouth.gr/pes-to-se-emas/
+  area: Greece
+  bbox:
+    north: 41.748819
+    west: 19.511719
+    south: 34.016242
+    east: 31.376953
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Σωματείο Υποστήριξης Διεμφυλικών (ΣΥΔ)
+  link: https://tgender.gr/
+  area: Greece
+  bbox:
+    north: 41.748819
+    west: 19.511719
+    south: 34.016242
+    east: 31.376953
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Háttér Society
+  link: https://en.hatter.hu/
+  area: Hungary
+  bbox:
+    north: 48.922499
+    west: 16.523438
+    south: 45.089036
+    east: 23.203125
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Információs és Lelkisegély Szolgálat
+  link: https://lelkisegely.hatter.hu/
+  area: Hungary
+  bbox:
+    north: 48.922499
+    west: 16.523438
+    south: 45.089036
+    east: 23.203125
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Személyes Segítés
+  link: https://en.hatter.hu/szemelyes-bejelentkezes
+  area: Hungary
+  bbox:
+    north: 48.922499
+    west: 16.523438
+    south: 45.089036
+    east: 23.203125
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Transvanilla
+  link: https://transvanilla.hu/
+  area: Hungary
+  bbox:
+    north: 48.922499
+    west: 16.523438
+    south: 45.089036
+    east: 23.203125
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: LGBT IRELAND
+  link: https://lgbt.ie/
+  area: Ireland
+  bbox:
+    north: 55.776573
+    west: 5.625000
+    south: 47.989921
+    east: 15.468750
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: BeLongTo LGBTQ+ youth
+  link: https://www.belongto.org/
+  area: Ireland
+  bbox:
+    north: 55.776573
+    west: 5.625000
+    south: 47.989921
+    east: 15.468750
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Transgender equality network
+  link: https://teni.ie/
+  area: Ireland
+  bbox:
+    north: 55.776573
+    west: 5.625000
+    south: 47.989921
+    east: 15.468750
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Arcigay
+  link: https://www.arcigay.it/sedi/
+  area: Italy
+  bbox:
+    north: 47.989921
+    west: 6.328125
+    south: 36.315125
+    east: 18.984375
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Circolo Mario mieli
+  link: https://www.mariomieli.org/
+  area: Italy
+  bbox:
+    north: 47.989921
+    west: 6.328125
+    south: 36.315125
+    east: 18.984375
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Famiglie arcobaleno
+  link: https://www.famigliearcobaleno.org/
+  area: Italy
+  bbox:
+    north: 47.989921
+    west: 6.328125
+    south: 36.315125
+    east: 18.984375
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Gaycenter
+  link: https://gaycenter.it/
+  area: Italy
+  bbox:
+    north: 47.989921
+    west: 6.328125
+    south: 36.315125
+    east: 18.984375
+  tags:
+    - gay
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Gay Help Line
+  link: https://gayhelpline.it/
+  area: Italy
+  bbox:
+    north: 47.989921
+    west: 6.328125
+    south: 36.315125
+    east: 18.984375
+  tags:
+    - gay
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Infotrans
+  link: https://www.infotrans.it/
+  area: Italy
+  bbox:
+    north: 47.989921
+    west: 6.328125
+    south: 36.315125
+    east: 18.984375
+  tags:
+    - trans
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Mozaika
+  link: http://mozaika.lv/
+  area: Latvia
+  bbox:
+    north: 58.724477
+    west: 20.039063
+    south: 53.330873
+    east: 32.695313
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Išgir̃stì
+  link: http://www.isgirsti.lt/
+  area: Lithuania
+  box:
+    north: 56.944974
+    west: 20.039063
+    south: 53.330873
+    east: 32.695313
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Nacionalinė LGBT asmenų teisių organizacija LGL
+  link: https://www.lgl.lt/
+  area: Lithuania
+  box:
+    north: 56.944974
+    west: 20.039063
+    south: 53.330873
+    east: 32.695313
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Tolerantiško jaunimo asociacija TJA
+  link: https://tja.lt/
+  area: Lithuania
+  box:
+    north: 56.944974
+    west: 20.039063
+    south: 53.330873
+    east: 32.695313
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Rosa Letzebuerg
+  link: http://rosa-letzebuerg.lu/
+  area: Luxemburg
+  bbox:
+    north: 50.064191736659104
+    west: 5.625
+    south: 46.31658418182218
+    east: 6.85546875
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: CID Frean an Gender
+  link: http://cid-fg.lu/
+  area: Luxemburg
+  bbox:
+    north: 50.064191736659104
+    west: 5.625
+    south: 46.31658418182218
+    east: 6.85546875
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Centre LGBTIQ+ CIGALE
+  link: https://www.cigale.lu/
+  area: Luxemburg
+  bbox:
+    north: 50.064191736659104
+    west: 5.625
+    south: 46.31658418182218
+    east: 6.85546875
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Centre d'Information Gay et LEsbien – CIGALE
+  link: https://www.cigale.lu/
+  area: Luxemburg
+  bbox:
+    north: 50.064191736659104
+    west: 5.625
+    south: 46.31658418182218
+    east: 6.85546875
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Coalition Margins
+  link: http://coalition.org.mk/
+  area: North Macedonia
+  bbox:
+    north: 42.373611
+    west: 20.452499
+    south: 40.853659
+    east: 23.033333
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: LGBT United Tetovo
+  link: http://lgbtunited.org/
+  area: North Macedonia
+  bbox:
+    north: 42.373611
+    west: 20.452499
+    south: 40.853659
+    east: 23.033333
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: ЛГБТИ Центар за поддршка LGBTI Support Centre
+  link: https://www.facebook.com/lgbtisupportcenter/
+  area: North Macedonia
+  bbox:
+    north: 42.373611
+    west: 20.452499
+    south: 40.853659
+    east: 23.033333
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Subversive Front
+  link: http://s-front.org.mk/
+  area: North Macedonia
+  bbox:
+    north: 42.373611
+    west: 20.452499
+    south: 40.853659
+    east: 23.033333
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: HERA
+  link: https://hera.org.mk/
+  area: North Macedonia
+  bbox:
+    north: 42.373611
+    west: 20.452499
+    south: 40.853659
+    east: 23.033333
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Rainbow Support Service
+  link: http://maltagayrights.org/
+  links:
+    - http://maltagayrights.org/
+    - https://www.facebook.com/rainbowsupportservice/
+  area: Malta
+  bbox:
+    north: 36.082815
+    west: 13.356934
+    south: 35.782169
+    east: 14.576416
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: LGBT asylum support
+  link: http://lgbtasylumsupport.nl/
+  area: Netherlands
+  bbox:
+    north: 53.7253321
+    west: 3.3585663
+    south: 50.7503835
+    east: 7.2275127
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: COC project
+  link: https://www.coc.nl/
+  area: Netherlands
+  bbox:
+    north: 53.7253321
+    west: 3.3585663
+    south: 50.7503835
+    east: 7.2275127
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Transgender Netwerk Nederland
+  link: https://www.transgendernetwerk.nl/
+  area: Netherlands
+  bbox:
+    north: 53.7253321
+    west: 3.3585663
+    south: 50.7503835
+    east: 7.2275127
+  tags:
+    - trans
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Switchboard (hulplijn en chat)
+  link: https://www.switchboard.nl/s/
+  area: Netherlands
+  bbox:
+    north: 53.7253321
+    west: 3.3585663
+    south: 50.7503835
+    east: 7.2275127
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Lambda Warszawa
+  link: http://lambdawarszawa.org/
+  area: Poland
+  bbox:
+    north: 54.838
+    west: 14.123
+    south: 49.002
+    east: 24.145
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Fundacja Trans-Fuzja
+  link: https://www.transfuzja.org/
+  area: Poland
+  bbox:
+    north: 54.838
+    west: 14.123
+    south: 49.002
+    east: 24.145
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Tęczówka
+  link: http://www.teczowka.org.pl/
+  area: Poland
+  bbox:
+    north: 54.838
+    west: 14.123
+    south: 49.002
+    east: 24.145
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Grupa Stonewall
+  link: https://grupa-stonewall.pl/
+  area: Poland
+  bbox:
+    north: 54.838
+    west: 14.123
+    south: 49.002
+    east: 24.145
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: ILGA PORTUGAL
+  link: http://ilga-portugal.pt/
+  area: Portugal
+  bbox:
+    north: 42.154
+    west: -9.500
+    south: 36.959
+    east: -6.189
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Casa Qui
+  link: https://www.casa-qui.pt/
+  area: Portugal
+  bbox:
+    north: 42.154
+    west: -9.500
+    south: 36.959
+    east: -6.189
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Centro Gis
+  link: https://www.associacaoplanoi.org/
+  area: Portugal
+  bbox:
+    north: 42.154
+    west: -9.500
+    south: 36.959
+    east: -6.189
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Accept Romania
+  link: http://www.acceptromania.ro/
+  area: Romania
+  bbox:
+    north: 48.265
+    west: 20.261
+    south: 43.618
+    east: 30.045
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Mozaiq
+  link: https://mozaiqlgbt.ro/
+  area: Romania
+  bbox:
+    north: 48.265
+    west: 20.261
+    south: 43.618
+    east: 30.045
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: TransCORE
+  link: https://transcore.ro/
+  area: Romania
+  bbox:
+    north: 48.265
+    west: 20.261
+    south: 43.618
+    east: 30.045
+  tags:
+    - trans
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: XY Spectrum
+  link: http://xyspectrum.org/
+  area: Serbia
+  bbox:
+    north: 46.181
+    west: 18.829
+    south: 41.855
+    east: 23.004
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Grupa IZAĐI
+  link: https://izadji.rs/
+  area: Serbia
+  bbox:
+    north: 46.181
+    west: 18.829
+    south: 41.855
+    east: 23.004
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Geten LGBT
+  link: https://www.transserbia.org/
+  area: Serbia
+  bbox:
+    north: 46.181
+    west: 18.829
+    south: 41.855
+    east: 23.004
+  tags:
+    - trans
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Da Se Zna
+  link: https://dasezna.lgbt/
+  area: Serbia
+  bbox:
+    north: 46.181
+    west: 18.829
+    south: 41.855
+    east: 23.004
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Asocijacija Duga
+  link: http://www.asocijacijaduga.org.rs/
+  area: Serbia
+  bbox:
+    north: 46.181
+    west: 18.829
+    south: 41.855
+    east: 23.004
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Legebitra
+  link: https://legebitra.si/
+  area: Slovenia
+  bbox:
+    north: 46.876
+    west: 13.375
+    south: 45.423
+    east: 16.609
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Zavod Transakcija
+  link: http://transakcija.si/
+  area: Slovenia
+  bbox:
+    north: 46.876
+    west: 13.375
+    south: 45.423
+    east: 16.609
+  tags:
+    - trans
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Inporadna
+  link: http://www.inporadna.sk/
+  area: Slovakia
+  bbox:
+    north: 49.613
+    west: 16.833
+    south: 47.731
+    east: 22.565
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Federación Española de Lesbianas, Gais, Trans y Bisexuales (FELGTB)
+  link: https://felgtbi.org/
+  area: Spain
+  bbox:
+    north: 43.791
+    west: -9.301
+    south: 27.640
+    east: 4.591
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Fundación Triángulo
+  link: http://www.fundaciontriangulo.org/
+  area: Spain
+  bbox:
+    north: 43.791
+    west: -9.301
+    south: 27.640
+    east: 4.591
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: AET – Asociación Española de Transexuales
+  link: http://transexualia.org/
+  area: Spain
+  bbox:
+    north: 43.791
+    west: -9.301
+    south: 27.640
+    east: 4.591
+  tags:
+    - trans
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Casal Lambda Barcelona
+  link: http://lambda.cat/
+  area: Spain
+  bbox:
+    north: 43.791
+    west: -9.301
+    south: 27.640
+    east: 4.591
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: RFSL
+  link: http://www.rfsl.se/
+  area: Sweden
+  bbox:
+    north: 69.059
+    west: 10.593
+    south: 55.339
+    east: 24.177
+  tags:
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: FPES Förening för transpersoner
+  link: https://fpes.se/
+  area: Sweden
+  bbox:
+    north: 69.059
+    west: 10.593
+    south: 55.339
+    east: 24.177
+  tags:
+    - trans
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: Transmmans
+  link: https://transammans.se/
+  area: Sweden
+  bbox:
+    north: 69.059
+    west: 10.593
+    south: 55.339
+    east: 24.177
+  tags:
+    - trans
+    - queer
+  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
