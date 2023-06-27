@@ -1031,13 +1031,6 @@ resources:
     - queer
   source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
 
-- title: 
-  link: 
-  area: 
-  tags:
-    - queer
-  source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
-
 - title: Rainbow House
   link: http://rainbowhouse.be/
   area: Belgium
