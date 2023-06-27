@@ -241,7 +241,8 @@ app.use('/', express.static('../frontend/build/'))
 const port = 17215 // queer = 17 21 5 5 18
 const host = '0.0.0.0' // Uberspace wants 0.0.0.0
 app.listen(port, host, () => {
-  const url = `http://${host}:${port}`
-  console.info(`Server listening at ${url}`)
+  console.info(`
+    Server listening at http://${host}:${port}
+    and at http://localhost:${port}
+  `)
 })
-
