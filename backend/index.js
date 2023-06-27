@@ -90,12 +90,14 @@ app.get('/api/resources.json', (req, res) => {
       // check if lat/lon is in resource.bbox
       // plus add an also accepted margin of the size of the bbox
 
+      const margin = 0.5
+
       if (resource.bbox) {
         if (
-          lat <= resource.bbox.north + ((resource.bbox.north - resource.bbox.south) * 0.5) &&
-          lat >= resource.bbox.south - ((resource.bbox.north + resource.bbox.south) * 0.5) &&
-          lon <= resource.bbox.east + ((resource.bbox.east - resource.bbox.west) * 0.5) &&
-          lon >= resource.bbox.west - ((resource.bbox.east + resource.bbox.west) * 0.5)
+          lat <= resource.bbox.north + ((resource.bbox.north - resource.bbox.south) * margin) &&
+          lat >= resource.bbox.south - ((resource.bbox.north + resource.bbox.south) * margin) &&
+          lon <= resource.bbox.east + ((resource.bbox.east - resource.bbox.west) * margin) &&
+          lon >= resource.bbox.west - ((resource.bbox.east + resource.bbox.west) * margin)
         ) {
           return true
         }
@@ -105,9 +107,9 @@ app.get('/api/resources.json', (req, res) => {
     })
     .map((resource) => {
       const {
-        lat: center_lat,
-        lon: center_lon,
-      } = resource.bbox_center
+        lat: center_lat = 0,
+        lon: center_lon = 0,
+      } = resource.bbox_center || {}
 
       let distance = bboxDistance(center_lat, center_lon, lat, lon)
       distance += resource.bbox_distance * 0.5
@@ -241,7 +243,8 @@ app.use('/', express.static('../frontend/build/'))
 const port = 17215 // queer = 17 21 5 5 18
 const host = '0.0.0.0' // Uberspace wants 0.0.0.0
 app.listen(port, host, () => {
-  const url = `http://${host}:${port}`
-  console.info(`Server listening at ${url}`)
+  console.info(`
+    Server listening at http://${host}:${port}
+    and at http://localhost:${port}
+  `)
 })
-

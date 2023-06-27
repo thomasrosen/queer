@@ -29,7 +29,7 @@ function loadData () {
               ...resource.original_tags,
             ]
           }
-          
+
           // get distance between bbox corners to sort by it
           resource.bbox_distance = 0
           if (resource.bbox) {
