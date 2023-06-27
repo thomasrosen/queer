@@ -107,9 +107,9 @@ app.get('/api/resources.json', (req, res) => {
     })
     .map((resource) => {
       const {
-        lat: center_lat,
-        lon: center_lon,
-      } = resource.bbox_center
+        lat: center_lat = 0,
+        lon: center_lon = 0,
+      } = resource.bbox_center || {}
 
       let distance = bboxDistance(center_lat, center_lon, lat, lon)
       distance += resource.bbox_distance * 0.5
