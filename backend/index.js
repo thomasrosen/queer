@@ -90,12 +90,14 @@ app.get('/api/resources.json', (req, res) => {
       // check if lat/lon is in resource.bbox
       // plus add an also accepted margin of the size of the bbox
 
+      const margin = 0.5
+
       if (resource.bbox) {
         if (
-          lat <= resource.bbox.north + ((resource.bbox.north - resource.bbox.south) * 0.5) &&
-          lat >= resource.bbox.south - ((resource.bbox.north + resource.bbox.south) * 0.5) &&
-          lon <= resource.bbox.east + ((resource.bbox.east - resource.bbox.west) * 0.5) &&
-          lon >= resource.bbox.west - ((resource.bbox.east + resource.bbox.west) * 0.5)
+          lat <= resource.bbox.north + ((resource.bbox.north - resource.bbox.south) * margin) &&
+          lat >= resource.bbox.south - ((resource.bbox.north + resource.bbox.south) * margin) &&
+          lon <= resource.bbox.east + ((resource.bbox.east - resource.bbox.west) * margin) &&
+          lon >= resource.bbox.west - ((resource.bbox.east + resource.bbox.west) * margin)
         ) {
           return true
         }
