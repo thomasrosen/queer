@@ -20,7 +20,7 @@ resources:
   link: https://wiki.openstreetmap.org/wiki/OpenQueerMap
   description:
     en: Does not exist anymore. And was only in German.
-  area: Deutschland
+  area: Germany
   bbox:
     north: 55.435
     west: 5.098
@@ -447,7 +447,7 @@ resources:
     - queer
     - network
     - places
-  area: Deutschland
+  area: Germany
   bbox:
     north: 55.1
     west: 5.9
@@ -461,7 +461,7 @@ resources:
     - queer
     - groups
     - places
-  area: Deutschland
+  area: Germany
   bbox:
     north: 55.1
     west: 5.9
@@ -474,7 +474,7 @@ resources:
   tags:
     - queer
     - groups
-  area: Deutschland
+  area: Germany
   bbox:
     north: 55.1
     west: 5.9
@@ -544,7 +544,7 @@ resources:
     de: Deutschlandweite Karte mit Ort bei denen queere Menschen willkommen sind. Queere Orte sind nicht von nicht-queeren Orten zu unterscheiden.
     en: Germany-wide map with places where queer people are welcome. Queer places are indistinguishable from non-queer places.
   link: https://www.inqueery.de/guide/deutschland/szene
-  area: Deutschland
+  area: Germany
   tags:
     - queer
     - gay
@@ -581,7 +581,7 @@ resources:
     - queer
     - network
     - gay
-  area: Deutschland
+  area: Germany
   bbox:
     north: 55.1
     west: 5.9
@@ -595,7 +595,7 @@ resources:
     - queer
     - network
     - gay
-  area: Deutschland
+  area: Germany
   bbox:
     north: 55.1
     west: 5.9
@@ -634,7 +634,7 @@ resources:
     west: 5.9 # longitude
     south: 47.3 # latitude
     east: 15.0 # longitude
-  area: Deutschland
+  area: Germany
   tags:
     - queer
     - places
@@ -750,7 +750,7 @@ resources:
     west: 5.9
     south: 47.3
     east: 15.0
-  area: Deutschland
+  area: Germany
   tags:
     - queer
     - news
@@ -794,7 +794,7 @@ resources:
   tags:
     - queer
     - network
-  area: Deutschland
+  area: Germany
   bbox:
     north: 55.1
     west: 5.9
@@ -813,7 +813,7 @@ resources:
     - groups
     - places
     - events
-  area: Deutschland
+  area: Germany
   bbox:
     north: 55.1
     west: 5.9
