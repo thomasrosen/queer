@@ -2151,6 +2151,11 @@ resources:
     south: 50.865
     east: 7.183
   tags:
+    - trans
+    - gay
+    - lesbian
+    - groups
+    - places
     - queer
   source: https://www.anyway-koeln.de/
 
