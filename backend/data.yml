@@ -2139,3 +2139,17 @@ resources:
     - trans
     - queer
   source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
+
+- title: anyway Köln
+  description: "Das anyway ist Europas erstes queeres Jugendzentrum, das speziell für junge Lesben, Schwule, Bisexuelle und Transmenschen sowie deren Freunde und Freundinnen von 14 bis 27 Jahren gegründet wurde." (Quelle Wikipedia)
+  link: https://www.anyway-koeln.de/
+  area: Köln, Germany
+  bbox:
+    north: 51.054
+    west: 6.756
+    south: 50.865
+    east: 7.183
+  tags:
+    - queer
+  source: https://www.anyway-koeln.de/
+
