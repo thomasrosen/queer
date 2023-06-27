@@ -1218,10 +1218,10 @@ resources:
   link: https://lgbt.dk/
   area: Denmark
   bbox:
-    north: 57.748928
-    west: 7.031250
-    south: 54.977613
-    east: 15.468750
+    north: 57.7969686755973
+    west: 7.888369791711151
+    south: 54.47128
+    east: 13.11128
   tags:
     - queer
   source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
@@ -1230,10 +1230,10 @@ resources:
   link: http://www.sapphoaarhus.dk/
   area: Denmark
   bbox:
-    north: 57.748928
-    west: 7.031250
-    south: 54.977613
-    east: 15.468750
+    north: 57.7969686755973
+    west: 7.888369791711151
+    south: 54.47128
+    east: 13.11128
   tags:
     - queer
   source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
@@ -1507,10 +1507,10 @@ resources:
   link: https://lgbt.ie/
   area: Ireland
   bbox:
-    north: 55.776573
-    west: 5.625000
-    south: 47.989921
-    east: 15.468750
+    north: 55.47833
+    west: -11.06329
+    south: 51.31663
+    east: -5.56010
   tags:
     - queer
   source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
@@ -1519,10 +1519,10 @@ resources:
   link: https://www.belongto.org/
   area: Ireland
   bbox:
-    north: 55.776573
-    west: 5.625000
-    south: 47.989921
-    east: 15.468750
+    north: 55.47833
+    west: -11.06329
+    south: 51.31663
+    east: -5.56010
   tags:
     - queer
   source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
@@ -1531,10 +1531,10 @@ resources:
   link: https://teni.ie/
   area: Ireland
   bbox:
-    north: 55.776573
-    west: 5.625000
-    south: 47.989921
-    east: 15.468750
+    north: 55.47833
+    west: -11.06329
+    south: 51.31663
+    east: -5.56010
   tags:
     - queer
   source: https://lgbtiqsurvey.eu/lgbtiq/org_list.html
