@@ -14,7 +14,7 @@ body {
   --primary-color: #007ed9;
 
   --content-box-width: 620px;
-  
+
   --font-family-headline: "Ubuntu Mono", Ubuntu, sans-serif;
   --font-family-text: Ubuntu, sans-serif;
   --font-family-code: Ubuntu Mono, source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
@@ -106,14 +106,16 @@ input[type="search"] {
   /* text-transform: uppercase; */
   border: 0;
   font-weight: bold;
+  text-align: start;
 
 	padding: 10px 20px;
-	border-radius: 100px;
 	color: var(--background-color);
 	fill: var(--background-color);
 	background: var(--text-color);
 	font-weight: bold;
 	transition: box-shadow 0.2s ease;
+
+  border-radius: 32px;
 }
 input[type="search"] {
   width: 100%;
@@ -124,6 +126,7 @@ button {
 button.small {
   padding: 5px 10px;
   font-size: 14px;
+  border-radius: 16px;
 }
 button[data-selected="true"] {
   box-shadow: 0 0 0 5px var(--text-color);

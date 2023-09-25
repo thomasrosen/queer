@@ -8,6 +8,7 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "libphonenumber-js": "^1.10.44",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-redux": "^8.0.5",
@@ -40,7 +41,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0",
+    "gh-pages": "^6.0.0",
     "react-app-rewire-yaml": "^1.1.0",
     "react-app-rewired": "^2.1.8"
   }
