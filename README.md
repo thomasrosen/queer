@@ -38,3 +38,11 @@ https://www.queer.de/
 **MANNSCHAFT MAGAZIN**</br>
 "Das führende Lifestyle-Magazin der LGBTIQ-Community im gesamten deutschsprachigen Raum."</br>
 https://mannschaft.com/
+
+---
+
+## Resources to edit the the information
+
+### Tool to check the opening hours
+
+<https://openingh.openstreetmap.de/evaluation_tool/?lng=en>
