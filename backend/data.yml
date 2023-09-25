@@ -2161,6 +2161,7 @@ resources:
 
 
 - title: Die Ansprechperson der Polizei Berlin für LSBTI
+  link: https://www.berlin.de/polizei/aufgaben/ansprechpersonen-fuer-lsbtiq/
   contact:
     - phone: +49 0304664-979444
       note: auch Anrufbeantworter
@@ -2177,6 +2178,7 @@ resources:
   source: Flyer der Polizei Berlin
 
 - title: Die Ansprechperson für LSBTI der Staatsanwaltschaft Berlin
+  link: https://www.berlin.de/sen/justv/ueber-uns/beauftragte/ansprechpartnerin-homophobe-hasskriminalitaet/
   contact:
     - phone: +49 9014 3526
     - phone: +49 9014 2733
