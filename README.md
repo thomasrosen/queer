@@ -2,7 +2,9 @@
 
 Resources for queer people 🏳️‍🌈
 
-I'm now collecting everything here: https://github.com/thomasrosen/LGBTQIA-Starterpack
+Information in this repo can be views at: <https://queer.thomasrosen.me/>
+
+Another repo with some infos can be found here: https://github.com/thomasrosen/LGBTQIA-Starterpack (i'm copying the stuff from there to here)
 
 ## Trans + Non-Binary
 
