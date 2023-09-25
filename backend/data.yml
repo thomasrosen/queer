@@ -2162,7 +2162,8 @@ resources:
 
 - title: Die Ansprechperson der Polizei Berlin für LSBTI
   contact:
-    - phone: 0304664-979444 (auch AB)
+    - phone: +49 0304664-979444
+      note: auch Anrufbeantworter
     - email: lsbti@polizei.berlin.de
   area: Berlin, Germany
   bbox:
@@ -2177,7 +2178,8 @@ resources:
 
 - title: Die Ansprechperson für LSBTI der Staatsanwaltschaft Berlin
   contact:
-    - phone: 9014- 3526 /- 2733
+    - phone: +49 9014 3526
+    - phone: +49 9014 2733
     - email: lsbt@sta.berlin.de
   area: Berlin, Germany
   bbox:
@@ -2193,7 +2195,7 @@ resources:
 - title: Maneo – Schwules Überfalltelefon und Opferhilfe
   link: https://www.maneo.de/
   contact:
-    - phone: 030 2163336
+    - phone: +49 030 2163336
   area: Berlin, Germany
   bbox:
     north: 52.6
@@ -2211,11 +2213,11 @@ resources:
   link: https://www.l-support.net/
   contact:
     - title: Beratung
-      phone: 030 45961865
+      phone: +49 030 45961865
       email: l-support@l-support.net
       opening_hours: Sa-Su 17:00-19:00; PH off
     - title: Büro
-      phone: 030 215 75 54
+      phone: +49 030 215 75 54
       email: office@l-support.net
   address: Potsdamer Str. 139, 10783 Berlin
   area: Berlin, Germany
@@ -2235,7 +2237,7 @@ resources:
 - title: Lesbenberatung e.v.
   link: https://www.lesbenberatung-berlin.de/
   contact:
-    - phone: 030 2152000
+    - phone: +49 030 2152000
   area: Berlin, Germany
   bbox:
     north: 52.6
@@ -2251,7 +2253,7 @@ resources:
   description: "das lesbische, schwule, bisexuelle, trans*, inter* + nichtbinäre projekt!"
   link: https://www.sonntags-club.de/
   contact:
-    - phone: 030 449 75 90
+    - phone: +49 030 449 75 90
       email: info@sonntags-club.de
       opening_hours: Mo-Do 10:00-18:00
   address: Greifenhagener Str. 28, 10437 Berlin
@@ -2272,7 +2274,7 @@ resources:
   description: Beratung von queer lebenden und transidenten Menschen
   link: https://www.schwulenberatungberlin.de/
   contact:
-    - phone: 030 446688111
+    - phone: +49 030 446688111
   area: Berlin, Germany
   bbox:
     north: 52.6
@@ -2290,7 +2292,7 @@ resources:
   description: "Berlins schwuler Checkpoint"
   link: https://www.mann-o-meter.de/
   contact:
-    - phone: 030 - 216 80 08
+    - phone: +49 030 216 80 08
     - email: info@mann-o-meter.de
   area: Berlin, Germany
   address: Bülowstraße 106, 10783 Berlin
@@ -2310,7 +2312,7 @@ resources:
   description: "Das Magnus-Hirschfeld-Centrum (mhc) vereint vielfältige Beratungs- und Begleitungsanbebote für Lesben, Schwule, Bi und Trans* aus jeder Altersgruppe und mit jedem kulturellen Hintergrund und einem Dach."
   link: https://www.mhc-hamburg.de
   contact:
-    - phone: 040.650 551 29
+    - phone: +49 040 650 551 29
     - email: soorum@mhc-hamburg.de
   social:
     facebook: https://www.facebook.com/scoorummhc
@@ -2337,7 +2339,7 @@ resources:
     - https://aid-diversity.de
   contact:
     - title: Büro
-      phone: 030/40753910
+      phone: +49 030 40753910
       email: aid@irg-moschee.de
     - title: Seelsorge
       email: seelsorge@aid-diversity.de
@@ -2362,7 +2364,7 @@ resources:
   description: "Über 1.500 Mitglieder trainieren in 30 Sportatren 7 Tage die Woche."
   link: https://www.vorspiel-berlin.de/
   contact:
-    - phone: (030) 44 05 77 40)
+    - phone: +49 030 44 05 77 40
     - email: mail@vorspiel-berlin.de
   social:
     facebook: https://www.facebook.com/vorspielberlin
