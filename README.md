@@ -1,37 +1,38 @@
 # Queer
+
 Resources for queer people 🏳️‍🌈
 
 I'm now collecting everything here: https://github.com/thomasrosen/LGBTQIA-Starterpack
 
-# Trans + Non-Binary
+## Trans + Non-Binary
 
-**Das Nichtbinär-Wiki**<br>
+**Das Nichtbinär-Wiki**</br>
 https://nibi.space/start
 
-**Trans in Deutschland**<br>
+**Trans in Deutschland**</br>
 https://nonbinarytransgermany.tumblr.com/faq
 
-# Gender-Neutral Language
+## Gender-Neutral Language
 
-**Geschlechtsneutrale Sprache | Gender-neutral language**<br>
+**Geschlechtsneutrale Sprache | Gender-neutral language**</br>
 https://nonbinarytransgermany.tumblr.com/language
 
-**Das Genderwörterbuch**<br>
-Nachschlagewerk zum Gendern.<br>
+**Das Genderwörterbuch**</br>
+Nachschlagewerk zum Gendern.</br>
 https://geschicktgendern.de/
 
-# Networks
+## Networks
 
-**DBNA — Du bist nicht allein!**<br>
-Deutschsprachiges Netzwerk für queere Jungs von 14 bis 29 Jahre.<br>
+**DBNA — Du bist nicht allein!**</br>
+Deutschsprachiges Netzwerk für queere Jungs von 14 bis 29 Jahre.</br>
 https://www.dbna.com/
 
-# News Websites / Magazines
+## News Websites / Magazines
 
-**Queer.de**<br>
-Queeres Nachrichtenportal aus Köln.<br>
+**Queer.de**</br>
+Queeres Nachrichtenportal aus Köln.</br>
 https://www.queer.de/
 
-**MANNSCHAFT MAGAZIN**<br>
-"Das führende Lifestyle-Magazin der LGBTIQ-Community im gesamten deutschsprachigen Raum."<br>
+**MANNSCHAFT MAGAZIN**</br>
+"Das führende Lifestyle-Magazin der LGBTIQ-Community im gesamten deutschsprachigen Raum."</br>
 https://mannschaft.com/
