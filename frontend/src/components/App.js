@@ -4,7 +4,7 @@ import './App.css'
 import '../fonts/ubuntu-v15-latin/index.css'
 import '../fonts/ubuntu-mono-v10-latin/index.css'
 
-import parsePhoneNumber from 'libphonenumber-js'
+import parsePhoneNumber from 'libphonenumber-js' // TODO move this to the backend to save bandwidth on the client
 
 import {
   Outlet,
