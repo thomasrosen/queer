@@ -96,6 +96,11 @@ export default function App() {
         Send an email to <a href="mailto:queer@thomasrosen.me">queer@thomasrosen.me</a> if you want to add a resource.
       </p>
 
+      <p>
+        Your privacy is important to me. The website saves no data about you. I have analytics enabled, but these are fully annonymous. Look at the source code or ask me, if you need more information.<br />
+        And fyi the website is hosted at <a href="https://uberspace.de/" target="_blank" rel="noreferrer">Uberspace</a> in the EU.
+      </p>
+
       <div className="hide_on_large_screens">
         <br />
         <button
