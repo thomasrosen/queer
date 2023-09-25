@@ -2159,3 +2159,223 @@ resources:
     - queer
   source: https://www.anyway-koeln.de/
 
+
+- title: Die Ansprechperson der Polizei Berlin für LSBTI
+  contact:
+    - phone: 0304664-979444 (auch AB)
+    - email: lsbti@polizei.berlin.de
+  area: Berlin, Germany
+  bbox:
+    north: 52.6
+    west: 13.1
+    south: 52.3
+    east: 13.6
+  tags:
+    - queer
+    - help
+  source: Flyer der Polizei Berlin
+
+- title: Die Ansprechperson für LSBTI der Staatsanwaltschaft Berlin
+  contact:
+    - phone: 9014- 3526 /- 2733
+    - email: lsbt@sta.berlin.de
+  area: Berlin, Germany
+  bbox:
+    north: 52.6
+    west: 13.1
+    south: 52.3
+    east: 13.6
+  tags:
+    - queer
+    - help
+  source: Flyer der Polizei Berlin
+
+- title: Maneo – Schwules Überfalltelefon und Opferhilfe
+  link: https://www.maneo.de/
+  contact:
+    - phone: 030 2163336
+  area: Berlin, Germany
+  bbox:
+    north: 52.6
+    west: 13.1
+    south: 52.3
+    east: 13.6
+  tags:
+    - queer
+    - help
+  source: Flyer der Polizei Berlin
+
+- title: L-Support – Opferhilfe für gewaltbetroffene lesbische, bisexuelle und queere Frauen
+  description: |-
+    "L-Support ist ein Antigewaltprojekt für lesbische, bisexuelle und queere Frauen. Wir bieten telefonische und persönliche Beratung an und nehmen Fallmeldungen entgegen. Auch trans* und nicht-binäre Menschen sind bei uns willkommen."
+  link: https://www.l-support.net/
+  contact:
+    - title: Beratung
+      phone: 030 45961865
+      email: l-support@l-support.net
+      opening_hours: Sa-Su 17:00-19:00; PH off
+    - title: Büro
+      phone: 030 215 75 54
+      email: office@l-support.net
+  address: Potsdamer Str. 139, 10783 Berlin
+  area: Berlin, Germany
+  bbox:
+    north: 52.6
+    west: 13.1
+    south: 52.3
+    east: 13.6
+  tags:
+    - queer
+    - help
+    - lesbian
+  source:
+    - Flyer der Polizei Berlin
+    - Flyer von L-Support
+
+- title: Lesbenberatung e.v.
+  link: https://www.lesbenberatung-berlin.de/
+  contact:
+    - phone: 030 2152000
+  area: Berlin, Germany
+  bbox:
+    north: 52.6
+    west: 13.1
+    south: 52.3
+    east: 13.6
+  tags:
+    - queer
+    - help
+  source: Flyer der Polizei Berlin
+
+- title: Sonntags-Club e.V.
+  description: "das lesbische, schwule, bisexuelle, trans*, inter* + nichtbinäre projekt!"
+  link: https://www.sonntags-club.de/
+  contact:
+    - phone: 030 449 75 90
+      email: info@sonntags-club.de
+      opening_hours: Mo-Do 10:00-18:00
+  address: Greifenhagener Str. 28, 10437 Berlin
+  area: Berlin, Germany
+  bbox:
+    north: 52.6
+    west: 13.1
+    south: 52.3
+    east: 13.6
+  tags:
+    - queer
+    - help
+  source:
+    - Flyer der Polizei Berlin
+    - Flyer des Sonntags-Clubs
+
+- title: Schwulenberatung Berlin
+  description: Beratung von queer lebenden und transidenten Menschen
+  link: https://www.schwulenberatungberlin.de/
+  contact:
+    - phone: 030 446688111
+  area: Berlin, Germany
+  bbox:
+    north: 52.6
+    west: 13.1
+    south: 52.3
+    east: 13.6
+  tags:
+    - queer
+    - help
+  source: Flyer der Polizei Berlin
+
+
+
+- title: Mann-O-Meter e.V.
+  description: "Berlins schwuler Checkpoint"
+  link: https://www.mann-o-meter.de/
+  contact:
+    - phone: 030 - 216 80 08
+    - email: info@mann-o-meter.de
+  area: Berlin, Germany
+  address: Bülowstraße 106, 10783 Berlin
+  bbox:
+    north: 52.6
+    west: 13.1
+    south: 52.3
+    east: 13.6
+  tags:
+    - queer
+    - help
+  source: Flyer von Mann-O-Meter
+
+
+
+- title: scoorum – queere aufklärungsarbeit
+  description: "Das Magnus-Hirschfeld-Centrum (mhc) vereint vielfältige Beratungs- und Begleitungsanbebote für Lesben, Schwule, Bi und Trans* aus jeder Altersgruppe und mit jedem kulturellen Hintergrund und einem Dach."
+  link: https://www.mhc-hamburg.de
+  contact:
+    - phone: 040.650 551 29
+    - email: soorum@mhc-hamburg.de
+  social:
+    facebook: https://www.facebook.com/scoorummhc
+    instagram: https://www.instagram.com/scoorum_mhc/
+  area: Hamburg, Germany
+  address: Borgweg 8, 22303 Hamburg
+  bbox:
+    north: 53.7
+    west: 9.8
+    south: 53.3
+    east: 10.3
+  tags:
+    - queer
+    - help
+  source: Flyer vom magnus hirschfeld centrum
+
+
+
+- title: AID Anlaufstelle Islam & Diversity — "LIEBE IST HALAL"
+  description: "Seelsorge für queere Muslim*innen"
+  link:
+    - https://www.ibn-rushd-goethe-moschee.de/a-i-d
+    - https://www.liebe-ist-halal.de/
+    - https://aid-diversity.de
+  contact:
+    - title: Büro
+      phone: 030/40753910
+      email: aid@irg-moschee.de
+    - title: Seelsorge
+      email: seelsorge@aid-diversity.de
+  social:
+    twitter: https://www.twitter.com/_IslamDiversity
+    facebook: https://www.facebook.com/islam.diversity
+    instagram: https://www.instagram.com/anlaufstelle_islamdiversity
+  area: Berlin, Germany
+  address: Ottostraße 16, 10555 Berlin
+  bbox:
+    north: 52.6
+    west: 13.1
+    south: 52.3
+    east: 13.6
+  tags:
+    - queer
+    - help
+  source: Flyer von AID
+
+
+- title: Vorspiel – Sportverein für Schwule und Lesben Berlin e.V.
+  description: "Über 1.500 Mitglieder trainieren in 30 Sportatren 7 Tage die Woche."
+  link: https://www.vorspiel-berlin.de/
+  contact:
+    - phone: (030) 44 05 77 40)
+    - email: mail@vorspiel-berlin.de
+  social:
+    facebook: https://www.facebook.com/vorspielberlin
+    instagram: https://www.instagram.com/vorspiel_ssl_berlin
+  area: Berlin, Germany
+  address: Martin-Luther-Straße 56, 10779 Berlin
+  bbox:
+    north: 52.6
+    west: 13.1
+    south: 52.3
+    east: 13.6
+  tags:
+    - queer
+    - sport
+  source: Flyer von Vorspiel
+
