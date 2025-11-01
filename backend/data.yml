@@ -2383,3 +2383,19 @@ resources:
     - sport
   source: Flyer von Vorspiel
 
+- title: |-
+    Siegessäule — "We are queer Berlin"
+  description: "Ein digital und analoges Magazin über Aktuelles in der queeren Szene Berlins."
+  link: https://www.siegessaeule.de/
+  area: Berlin, Germany
+  bbox:
+    north: 52.6
+    west: 13.1
+    south: 52.3
+    east: 13.6
+  tags:
+    - queer
+    - news
+    - events
+  source: |-
+    Analoges Magazin das überall rumliegt.
