@@ -24,7 +24,7 @@ header {
   padding: 0 32px;
   background-color: var(--background-color);
   color: var(--text-color);
-  box-shadow: inset 0 -1px 0 0 var(--text-color);
+  box-shadow: inset 0 -1px 0 0 color-mix(in display-p3, var(--text-color) 20%, var(--background-color) 80%);
 }
 header h1 {
   font-size: 40px;
@@ -37,8 +37,7 @@ nav {
   width: var(--sidebar-width);
   padding: 32px;
   padding-block-end: 25vh;
-
-  box-shadow: inset -1px 0 0 0 var(--text-color);
+  box-shadow: inset -1px 0 0 0 color-mix(in display-p3, var(--text-color) 20%, var(--background-color) 80%);
 }
 
 main {
@@ -48,7 +47,7 @@ main {
   left: var(--sidebar-width);
   padding: 32px;
   padding-block-end: 25vh;
-  box-shadow: -1px 0 0 0 var(--text-color);
+  box-shadow: -1px 0 0 0 color-mix(in display-p3, var(--text-color) 20%, var(--background-color) 80%);
 }
 
 main p {
