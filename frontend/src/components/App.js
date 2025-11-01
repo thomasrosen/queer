@@ -1,30 +1,26 @@
-import React from 'react'
-import './App.css'
+import React from 'react';
+import './App.css';
 
-import '../fonts/ubuntu-v15-latin/index.css'
-import '../fonts/ubuntu-mono-v10-latin/index.css'
+import '../fonts/ubuntu-mono-v10-latin/index.css';
+import '../fonts/ubuntu-v15-latin/index.css';
 
-import parsePhoneNumber from 'libphonenumber-js' // TODO move this to the backend to save bandwidth on the client
-
+import parsePhoneNumber from 'libphonenumber-js'; // TODO move this to the backend to save bandwidth on the client
+import { useDispatch, useSelector } from 'react-redux';
 import {
   Outlet,
-} from 'react-router-dom'
-
-import Tag from './Tag.js'
-
-import { useSelector, useDispatch } from 'react-redux'
+} from 'react-router-dom';
 import {
-  toggleTag,
   selectSelectedTags,
-} from '../redux/slices/filterSlice.js'
+  toggleTag,
+} from '../redux/slices/filterSlice.js';
 import {
   fetchResources,
   selectResources,
-} from '../redux/slices/resourcesSlice.js'
+} from '../redux/slices/resourcesSlice.js';
+import Filters from './Filters.js';
+import Tag from './Tag.js';
 
-import Filters from './Filters.js'
-
-function get_smaller_url (url) {
+function get_smaller_url(url) {
   // check if url only contains exactly three slashes
   if (url.split('/').length <= 4) {
     // url is only a domain
@@ -79,7 +75,7 @@ export default function App() {
     <nav>
       <Filters
         onError={setError}
-        />
+      />
     </nav>
 
     <main>
@@ -178,16 +174,9 @@ export default function App() {
 
             <div className="tag_row small">
               {
-                links.map(({title, url}) => {
-                  return <a key={url} href={url}>
-                    <Tag
-                      className="small"
-                      tag={title}
-                      style={{
-                        cursor: 'pointer'
-                      }}
-                      data-selected="false"
-                    />
+                links.map(({ title, url }) => {
+                  return <a key={url} href={url} className="body2" style={{ display: 'block' }}>
+                    {title}
                   </a>
                 })
               }
